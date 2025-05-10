@@ -5,7 +5,7 @@ import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 import { openContactModal } from "@/utlis/toggleContactModal";
 import LanguageSelect2 from "../common/LanguageSelect2";
-// import { useEffect, useState } from "react";
+ import { useEffect, useState } from "react";
 
 export default function Header1() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
