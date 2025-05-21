@@ -7,8 +7,8 @@ import Pricing from "@/components/common/Pricing";
 import Feedback from "@/components/homes/home-1/Feedback";
 import Timeline from "@/components/homes/home-1/Timeline";
 import Team from "@/components/homes/home-1/Team";
-import Cta from "@/components/homes/home-1/Cta";
-import Footer1 from "@/components/footers/Footer1";
+import Cta from "@/components/homes/home-3/Cta";
+import Footer2 from "@/components/footers/Footer2";
 import FilterGallery from "@/components/homes/home-1/FilterGallery";
 export const metadata = {
   title:
@@ -26,14 +26,14 @@ export default function HomePage1() {
           <FilterGallery />
           <Features />
           <Integretion />
+          <Team />
           <Facts />
           <Pricing />
-          <Feedback />
           <Timeline />
-          <Team />
+          <Feedback />
           <Cta />
         </div>
-        <Footer1 />
+        <Footer2 />
       </div>
     </>
   );
