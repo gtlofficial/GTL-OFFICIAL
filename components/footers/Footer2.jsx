@@ -23,9 +23,7 @@ export default function Footer2() {
                         />
                       </Link>
                       <p>
-                        This powerfull tool eliminates the need to leave
-                        Salesforce to get things done as I can create a custom
-                        proposal with dynamic pricing tables.
+                        To empower businesses and startups by turning ideas into reality with innovative, efficient, and future-ready digital solutions.
                       </p>
                     </div>
                     <div className="hstack items-start gap-1">
@@ -68,19 +66,8 @@ export default function Footer2() {
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Lexend © {new Date().getFullYear()}, All rights reserved.
+                  Gtl © {new Date().getFullYear()}, All rights reserved.
                 </p>
-                <ul className="nav-x gap-2 fw-medium">
-                  <li>
-                    <a href="#">Privacy notice</a>
-                  </li>
-                  <li>
-                    <a href="#">Legal</a>
-                  </li>
-                  <li>
-                    <a href="#">Cookie settings</a>
-                  </li>
-                </ul>
               </div>
               <div className="hstack justify-center lg:justify-end gap-2 lg:gap-3">
                 <ul className="nav-x gap-2">

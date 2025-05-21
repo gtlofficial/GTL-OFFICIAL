@@ -17,12 +17,9 @@ export default function Cta() {
                   href={`/page-pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Try Lexend today
+                  TRY GTL TODAY
                 </Link>
               </div>
-              <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                14-day trial, no credit card required.
-              </p>
             </div>
             <div className="position-absolute top-50 ltr:end-0 rtl:start-0 translate-middle-y z-1 ltr:me-8 rtl:ms-8 d-none lg:d-block">
               <Image

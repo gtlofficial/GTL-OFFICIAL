@@ -98,27 +98,21 @@ export default function Cta() {
                 Create stunning websites that fits{" "}
                 <span className="text-primary">your needs.</span>
               </h2>
-              <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
-                Try Lexend today.
-              </p>
               <div className="vstack sm:hstack justify-center gap-1 lg:gap-2 mt-1 lg:mt-2 flex-sm-column fdr">
                 <Link
                   href={`/page-pricing`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Try Lexend today
+                  Try Gtl today
                 </Link>
                 <a
                   onClick={openContactModal}
                   className="btn btn-md lg:btn-lg dark:text-white border-gray-900 dark:border-white border-opacity-20 hover:border-opacity-40"
                   data-uc-toggle=""
                 >
-                  Contact sales
+                  Contact us
                 </a>
               </div>
-              <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                14-day trial, no credit card required.
-              </p>
             </div>
           </div>
         </div>
