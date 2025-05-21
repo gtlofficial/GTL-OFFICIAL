@@ -8,7 +8,7 @@ export default function Feedback() {
       id="clients_feedbacks"
       className="clients-feedbacks section panel overflow-hidden"
     >
-      <div className="section-outer panel pb-6 xl:pb-9">
+      <div className="section-outer panel py-6 xl:py-9">
         <div className="container max-w-lg">
           <div className="section-inner panel">
             <div

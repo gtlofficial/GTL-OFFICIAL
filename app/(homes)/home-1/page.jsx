@@ -4,7 +4,7 @@ import Hero from "@/components/homes/home-1/Hero";
 import Integretion from "@/components/homes/home-1/Integretion";
 import Facts from "@/components/homes/home-1/Facts";
 import Pricing from "@/components/common/Pricing";
-import Feedback from "@/components/homes/home-1/Feedback";
+import Feedback from "@/components/homes/home-2/Feedback";
 import Timeline from "@/components/homes/home-1/Timeline";
 import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/homes/home-3/Cta";
