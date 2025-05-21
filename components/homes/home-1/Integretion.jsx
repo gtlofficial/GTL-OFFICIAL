@@ -18,11 +18,10 @@ export default function Integretion() {
             >
               <div className="panel vstack items-center gap-2 xl:gap-3 text-center">
                 <h2 className="h3 lg:h2 xl:h1 m-0">
-                  Boost your efficiency with integrations
+                  Our Services
                 </h2>
                 <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                  Connect every part of your business with integrations that
-                  will simplify your workflow.
+                  We offer a full spectrum of development services designed to transform your vision into impactful digital experiences. Whether you're launching a new venture or scaling an existing one, our team is here to deliver innovative, reliable, and scalable solutions.
                 </p>
               </div>
               <div
@@ -42,13 +41,18 @@ export default function Integretion() {
                               {integration.category}
                             </span>
                           </div>
-                          <Image
-                            className="w-32px lg:w-40px"
-                            src={integration.imageUrl}
-                            width={40}
-                            height={40}
-                            alt={integration.imageAlt}
-                          />
+                          <div className="alt-img">
+                           {integration.altTextImage}
+                            </div>
+                          {/*
+<Image
+  className="w-32px lg:w-40px"
+  src={integration.imageUrl}
+  width={40}
+  height={40}
+  alt={integration.imageAlt}
+/>
+*/}
                         </div>
                         <p className="fs-6 opacity-70 dark:opacity-80">
                           {integration.description}
@@ -69,7 +73,7 @@ export default function Integretion() {
                 href={`/page-integrations`}
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow dark:text-white"
               >
-                <span>Explore all integrations</span>
+                <span>Explore all Services</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
               </Link>
             </div>

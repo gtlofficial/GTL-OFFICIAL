@@ -1,32 +1,31 @@
 export const facts = [
   {
     id: 1,
-    year: 2014,
-    description: "Lexend founded",
+    year: 3892,
+    description: "Projects",
     animation:
-      "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: 3892; round: 1; easing: linear; duration: 1200;",
   },
   {
     id: 2,
-    count: 50,
-    description: "Hardworking group",
+    count: 1587,
+    description: "Satisfied Clients",
     animation:
-      "onview: -100; textContent: [0, 50]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 1587]; round: 1; easing: linear; duration: 1200;",
   },
   {
     id: 3,
-    count: 4600,
-    description: "Document workflows",
+    count: 12,
+    description: "Ongoing Projects",
     animation:
-      "onview: -100; textContent: [0, 4600]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 12]; round: 1; easing: linear; duration: 1200;",
   },
   {
     id: 4,
-    count: 17,
-    description: "Taux convertion",
+    count: 12820,
+    description: "Cups Of Coffee",
     animation:
-      "onview: -100; textContent: [0, 17]; round: 1; easing: linear; duration: 1200;",
-    suffix: "%",
+      "onview: -100; textContent: [0, 12820]; round: 1; easing: linear; duration: 1200;",
   },
 ];
 
@@ -50,22 +49,22 @@ export const factItems = [
 
 export const panelsData = [
   {
-    value: 2014,
-    text: "Lexend founded.",
+    value: 3892,
+    text: "Projects",
     animationData:
-      "onview: -100; textContent: 2014; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: 3892; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 50,
-    text: "Hardworking group.",
+    value: 1587,
+    text: "Satisfied Clients",
     animationData:
-      "onview: -100; textContent: [0, 50]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 1587]; round: 1; easing: linear; duration: 1200;",
   },
   {
-    value: 100,
-    text: "Document workflows.",
+    value: 12,
+    text: "Ongoing Projects",
     animationData:
-      "onview: -100; textContent: [0, 100]; round: 1; easing: linear; duration: 1200;",
+      "onview: -100; textContent: [0, 12]; round: 1; easing: linear; duration: 1200;",
     suffix: "k",
   },
 ];

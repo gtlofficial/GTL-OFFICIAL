@@ -10,7 +10,7 @@ export default function Features() {
       id="main_features"
       className="main-features section panel overflow-hidden"
     >
-      <div className="section-outer panel pb-6 xl:pb-9">
+      <div className="section-outer panel py-6 xl:py-9 pb-6 xl:pb-9">
         <div className="container max-w-xl lg:max-w-lg">
           <div
             className="section-inner panel"
@@ -18,12 +18,17 @@ export default function Features() {
           >
             <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
               <h2 className="h3 lg:h2 xl:h1 m-0">
-                Smart features for your business
+                What we do
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                We focus on helping you to make useful content more accessible
-                with an utlimate goal for a good sharing profit as a content
-                creator.
+                At the heart of our services lies a commitment to innovative, scalable, and high-quality software development. We offer end-to-end solutions across a wide spectrum of platforms and technologies, including:
+<br></br>
+eCommerce Platforms: Shopify, WordPress, and BigCommerce<br></br>
+Mobile App Development: Specializing in React Native<br></br>
+Frontend Technologies: HTML, CSS, React, Angular<br></br>
+Backend Development: Node.js<br></br>
+We also excel in Shopify app development using Remix and custom Shopify theme development, bringing seamless performance and enhanced user experience to online stores.
+Whether you're an ambitious startup or a global enterprise, our dedicated team crafts tailored digital solutions designed to grow with you. Expect nothing less than precision, reliability, and results—every time.
               </p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6">
@@ -38,14 +43,14 @@ export default function Features() {
                     onClick={() => setActiveTab(1)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Audit Trial</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">eCommerce Platforms</a>
                   </li>
                   <li
                     onClick={() => setActiveTab(2)}
                     className={`${activeTab == 2 ? "uc-active" : ""}`}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Tool Workflow</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">App Development</a>
                   </li>
                   <li
                     className={`${activeTab == 3 ? "uc-active" : ""}`}
@@ -53,7 +58,7 @@ export default function Features() {
                     role="presentation"
                   >
                     <a className="h6 lg:h5 text-nowrap m-0">
-                      Control your Apps
+                      Frontend Technologies
                     </a>
                   </li>
                   <li
@@ -61,7 +66,7 @@ export default function Features() {
                     onClick={() => setActiveTab(4)}
                     role="presentation"
                   >
-                    <a className="h6 lg:h5 text-nowrap m-0">Approvals</a>
+                    <a className="h6 lg:h5 text-nowrap m-0">Backend Development</a>
                   </li>
                 </ul>
               </div>
@@ -91,15 +96,10 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Share tools quickly and confidently in
-                                    minutes
+                                    Shopify, WordPress, and BigCommerce
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    This powerfull tool eliminates the need to
-                                    leave Salesforce to get things done as I can
-                                    create a custom proposal with dynamic
-                                    pricing tables. You can also customize your
-                                    own dynamic versions.
+                                    We build powerful and user-friendly online stores using leading platforms. From custom themes to advanced integrations, we help businesses create seamless shopping experiences that drive conversions.
                                   </p>
                                  <Link
                                     href="/page-features"
@@ -138,12 +138,10 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Connect every part of your entire business
+                                    Specializing in React Native
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Keep data consistent, with native CRM
-                                    integrations that streamline your entire
-                                    Tool workflow.
+                                    We develop cross-platform mobile apps with React Native, ensuring fast performance and a native look and feel on both iOS and Android devices—ideal for startups and enterprises alike.
                                   </p>
                                   <a
                                     href="#"
@@ -182,14 +180,10 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Maintain compliance and control your apps
+                                    HTML, CSS, React, Angular
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Improve security and trust with built-in
-                                    legally binding e-Signatures. Create
-                                    pre-approved templates, content blocks and
-                                    lock all legal information to prevent costly
-                                    mistakes.
+                                    Our team creates visually stunning and highly responsive user interfaces using modern frontend tools. We focus on delivering smooth, interactive, and accessible web experiences.
                                   </p>
                                 <Link
                                     href="/page-features"
@@ -228,13 +222,10 @@ export default function Features() {
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Review quickly and confidently
+                                    Node.js
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
-                                    Get real-time access to approvals, comments
-                                    and version tracking. Smart features like
-                                    variables and conditional logic help you
-                                    eliminate Tool errors.
+                                    We build robust and scalable server-side applications with Node.js. Our solutions are optimized for performance, security, and easy integration with third-party services and databases.
                                   </p>
                                   <Link
                                     href="/page-features"

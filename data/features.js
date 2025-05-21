@@ -6,25 +6,25 @@ export const panelData = [
     altText: "impact-icon",
     title: "Make an impact",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "Our work isn’t just about code—it’s about creating scalable, meaningful solutions that move businesses forward and shape the future of technology.",
   },
   {
     id: 2,
     lightIcon: "/assets/images/template/icon-trophy.svg",
     darkIcon: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
-    title: "Learn",
+    title: "Commit to Learning",
     description:
-      "Teams are masters of their craft though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "We foster a culture of continuous learning, encouraging our teams to stay ahead of the curve and evolve with the ever-changing tech landscape.",
   },
   {
     id: 3,
     lightIcon: "/assets/images/template/icon-crown.svg",
     darkIcon: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
-    title: "Empathy",
+    title: "Lead with Empathy",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we provide a better experience for all.",
+      "By being attentive and empathetic to our clients, users, and colleagues, we deliver better products and foster stronger partnerships.",
   },
 ];
 

@@ -45,11 +45,10 @@ export default function Integrations() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h2 sm:h1 lg:display-6 xl:display-5 m-0">
-                Integrations
+                Our Services
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                Boost your efficiency with integrations that will simplify your
-                workflow.
+                We offer a full spectrum of development services designed to transform your vision into impactful digital experiences. Whether you're launching a new venture or scaling an existing one, our team is here to deliver innovative, reliable, and scalable solutions.
               </p>
             </div>
             <div className="panel">
@@ -70,13 +69,18 @@ export default function Integrations() {
                               {integration.category}
                             </span>
                           </div>
-                          <Image
-                            className="w-32px lg:w-40px"
-                            src={integration.imageUrl}
-                            width={40}
-                            height={40}
-                            alt={integration.imageAlt}
-                          />
+                          <div className="alt-img">
+                           {integration.altTextImage}
+                            </div>
+                          {/*
+<Image
+  className="w-32px lg:w-40px"
+  src={integration.imageUrl}
+  width={40}
+  height={40}
+  alt={integration.imageAlt}
+/>
+*/}
                         </div>
                         <p className="fs-6 opacity-70 dark:opacity-80">
                           {integration.description}

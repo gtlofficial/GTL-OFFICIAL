@@ -6,33 +6,33 @@ export const panelsData = [
     altText: "impact-icon",
     title: "Make an impact",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "We’re not here to build just another website or app — we’re here to transform businesses. Our work is designed to make a real, measurable difference, whether you're a startup or a large enterprise.",
   },
   {
     id: 2,
     lightImgSrc: "/assets/images/template/icon-trophy.svg",
     darkImgSrc: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
-    title: "Learn",
+    title: "Keep Learning",
     description:
-      "Lexend team are masters of their craft. Even though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "Technology evolves fast, and so do we. Our team is made up of lifelong learners — experts who are always growing, exploring, and staying ahead of the curve to bring the best to our clients.",
   },
   {
     id: 3,
     lightImgSrc: "/assets/images/template/icon-globe.svg",
     darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
     altText: "fun-icon",
-    title: "Have fun",
+    title: "Enjoy the Journey",
     description:
-      "We work hard and play harder. We believe in the importance of celebrating wins big or small, for the business or individuals.",
+      "We believe great work comes from great energy. At GTL, we celebrate every milestone, big or small, and foster a fun, creative environment where people love what they do.",
   },
   {
     id: 4,
     lightImgSrc: "/assets/images/template/icon-crown.svg",
     darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
-    title: "Empathy",
+    title: "Lead with Empathy",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we can provide a better experience for all.",
+      "We put people first — always. Whether it’s a client, a teammate, or an end user, we approach every interaction with understanding, patience, and care to create meaningful and lasting relationships.",
   },
 ];

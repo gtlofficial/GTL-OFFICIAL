@@ -147,10 +147,10 @@
   --color-slate-900: #15171a;
 
   /* home 1 to 6 and inner pages and rtl version main color plate change from bellow  */
-  --color-primary: #12715b;
+  --color-primary: #fe8f00;
   --bs-primary-rgb: 18, 113, 91;
-  --btn-hover-bg: #0f604d;
-  --btn-hover-border-color: #0e5a49;
+  --btn-hover-bg: #000000;
+  --btn-hover-border-color: #000000;
   /* home 1 to 6 and inner pages and rtl version main color plate change from top  */
 
   --color-primary-10: #f8fbfa;
@@ -8449,4 +8449,8 @@ textarea.form-control-lg {
 :where(.uc-dark) .dark\:from-primary-700 {
   --uc-gradient-from: #0b4437;
   --uc-gradient-stops: var(--uc-gradient-from), var(--uc-gradient-to);
+}
+
+.alt-img {
+    font-size: 30px;
 }

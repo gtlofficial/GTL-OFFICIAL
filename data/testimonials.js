@@ -1,33 +1,20 @@
 export const testimonials = [
   {
-    quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on
-      building out programs to help our employees. 
-      Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Quas nisi consectetur adipisci eaque. Porro,
-      atque.”`,
-    name: "Mark Zellers",
-    position: "Director of Human Resources.",
+    quote: `“I partnered with them to optimize website performance, and their expertise worked like magic. Their team was highly responsive and displayed professionalism in achieving outstanding results. They were readily available during their working hours, ensuring a hassle-free and efficient delivery of the project.”`,
+    name: "Studio Urbanity",
+    position: "Director of Studio Urbanity.",
     imgSrc: "/assets/images/portrait/01.jpg",
   },
   {
-    quote: `“I can create a custom proposal with dynamic pricing
-      tables, and get approval from my boss all within 36
-      minutes and looks fantastic.
-      Dolor sit amet consectetur adipisicing elit. Quas
-      nisi consectetur adipisci eaque. Porro, atque.”`,
-    name: "André Garcia",
+    quote: `“Great professional and very attentive, every detail I asked for he corrected with attention, Rahul has a lot of experience in design and coding, solving my problem with the product page, I am totally satisfied with the service, he made sure to solve all my problems with the product page. He ended my service only after solving everything without pressure.”`,
+    name: "ClosetFy",
     position: "Client Success Manager",
     imgSrc: "/assets/images/portrait/02.jpg",
   },
   {
-    quote: `“This powerful tool eliminates the need to leave
-      Salesforce to get things done, 
-      quas libero placeat voluptates sed sequi? Corporis,
-      earum vitae. 
-      Tempore pariatur dignissimos coming for great tool
-      of repellat quae a eaque culpa iusto fugit.”`,
-    name: "Matt Henderson",
-    position: "Director of Sales Operations",
+    quote: `“Working with Rahul was an absolute pleasure. I found his attention to detail and thoroughness in his work to be commendable. Not only did he consistently deliver high-quality results, but he also demonstrated a strong commitment to ensuring my satisfaction throughout the project.”`,
+    name: "MYOBFASHION.COM",
+    position: "Director of MYOBFASHION.COM",
     imgSrc: "/assets/images/portrait/03.jpg",
   },
 ];

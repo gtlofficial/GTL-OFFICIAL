@@ -168,15 +168,15 @@ export default function Hero() {
                     data-anime="targets: >*; translateY: [24, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                   >
                     <h1 className="h2 sm:h1 lg:display-6 xl:display-4 mt-4 sm:mt-0">
-                      Easy project managment{" "}
+                      We Are Leading{" "}
                       <br className="d-none sm:d-block" />
-                      of any complexity
+                      Shopify Experts
                     </h1>
                     <Link
                       href={`/page-pricing`}
                       className="btn btn-md lg:btn-lg btn-primary text-white min-w-150px sm:mt-1 lg:mt-2"
                     >
-                      Try it out
+                      Getting Start
                     </Link>
                     <div className="hstack justify-center gap-2 mt-1 sm:mt-2">
                       <div className="hstack justify-center gap-0">
@@ -203,7 +203,7 @@ export default function Hero() {
                         />
                       </div>
                       <span className="fs-7 sm:fs-6 fw-medium opacity-60">
-                        4.6k Hardworking Members
+                        With Over 3000+ Shopify Stores Sucessfully Completed & Over 7500+ reviews across all platforms
                       </span>
                     </div>
                   </div>
@@ -249,7 +249,7 @@ export default function Hero() {
 
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/lexend_vid.webm"
+        src="/assets/images/media/code-vid.mp4"
         setIsOpen={() => setOpen(false)}
       />
     </>
