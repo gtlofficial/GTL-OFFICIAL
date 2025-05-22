@@ -19,7 +19,6 @@ export default function WorkPage() {
         <Header2 />
         <div id="wrapper" className="wrap">
           <FilterGallery />
-          {/* <div className="pt-6 xl:pt-9"></div> */}
           <Faq />
           <Testimonials />
           <Cta />
