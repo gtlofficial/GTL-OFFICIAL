@@ -58,8 +58,8 @@ const FilterGallery = () => {
                       style={{ height: '200px', objectFit: 'cover' }}
                     />
                     <div className="card-body">
-                      <h5 className="card-title">{item.title}</h5>
-                      <span className="badge bg-secondary">{item.category}</span>
+                      <h5 className="card-title m-0">{item.title}</h5>
+                      <span className="badge">{item.category}</span>
                     </div>
                   </div>
                 </div>

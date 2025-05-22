@@ -16,13 +16,13 @@ export default function Nav() {
         <Link href={`/page-pricing`}>Pricing</Link>
       </li>
       <li>
-        <Link href={`/page-team`}>Team</Link>
+        <Link href={`/page-work`}>Work</Link>
       </li>
       <li>
         <Link href={`/page-about`}>About</Link>
       </li>
       <li>
-        <Link href={`/page-contact`}>Contact</Link>
+        <Link href={`/page-contact-2`}>Contact</Link>
       </li>
       <li className="has-dd-menu">
         <a role="button" aria-haspopup="true">
