@@ -12,9 +12,9 @@ import Footer2 from "@/components/footers/Footer2";
 import FilterGallery from "@/components/homes/home-1/FilterGallery";
 export const metadata = {
   title:
-    "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Galactic Technologies | Custom Web & App Development Company",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Galactic Technologies is a leading IT company founded in 2015, offering custom website, app, theme, and full-stack development services to help your business grow online.",
 };
 export default function HomePage1() {
   return (

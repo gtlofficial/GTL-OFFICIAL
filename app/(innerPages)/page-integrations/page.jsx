@@ -9,9 +9,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import Integrations from "@/components/innerpages/Integrations";
 export const metadata = {
   title:
-    "Integrations || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Our Services | Web, App, Theme & Full-Stack Development – Galactic Technologies",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GTL - Explore a full suite of services including website development, mobile app development, custom theme design, frontend & backend development tailored to your business needs.",
 };
 export default function IntegrationPage() {
   return (

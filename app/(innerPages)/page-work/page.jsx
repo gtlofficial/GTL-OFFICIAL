@@ -8,9 +8,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import FilterGallery from "@/components/homes/home-1/FilterGallery";
 export const metadata = {
   title:
-    "Work || GTL - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Our Work | Projects by Galactic Technologies",
   description:
-    "GTL - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GTL - Discover our portfolio of successfully delivered websites, apps, and digital solutions. Galactic Technologies brings creativity and performance to every project.",
 };
 export default function WorkPage() {
   return (

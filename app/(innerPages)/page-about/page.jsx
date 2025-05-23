@@ -11,9 +11,9 @@ import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/innerpages/Cta";
 export const metadata = {
   title:
-    "About || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "About Us | Galactic Technologies – Innovators in Digital Development",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GTL - Learn about Galactic Technologies, founded by Rahul Dhiman and Ritesh Dhiman in 2015, dedicated to building powerful digital solutions that drive innovation and growth.",
 };
 export default function AboutPage() {
   return (

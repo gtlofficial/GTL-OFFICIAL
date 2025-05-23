@@ -34,7 +34,7 @@ const FilterGallery = () => {
                 </p>
               </div>
               
-              <div className="d-flex flex-wrap justify-content-center mb-4 gap-2">
+              <div style={{ flexWrap: 'wrap' }} className="d-flex flex-wrap justify-content-center mb-4 gap-2">
                 {['All', 'Bigcommerce', 'React', 'Shopify', 'Squarespace', 'Wordpress', 'Government'].map((filter) => (
                   <button
                     key={filter}

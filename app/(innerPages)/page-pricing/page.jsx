@@ -9,9 +9,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
   title:
-    "Pricing || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Pricing | Transparent & Scalable Packages – Galactic Technologies",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GTL - Find the right package for your digital project. From startups to enterprises, Galactic Technologies offers transparent, scalable pricing for web and app development services.",
 };
 export default function PricingPage() {
   return (
