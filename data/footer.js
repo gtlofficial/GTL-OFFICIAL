@@ -4,7 +4,6 @@ export const footerLinks = [
       { href: "/page-about", label: "About" },
       { href: "/page-pricing", label: "Pricing" },
       { href: "/page-integrations", label: "Services" },
-      { href: "/page-career", label: "Career" },
       { href: "/page-contact-2", label: "Contact" },
     ],
   },
@@ -20,7 +19,6 @@ export const footerLinks = [
     links: [
       { href: "/blog", label: "Blog" },
       { href: "/page-terms", label: "FAQ" },
-      { href: "/coming-soon", label: "Coming Soon" },
       { href: "/page-terms", label: "Terms of service" },
       { href: "/page-privacy", label: "Privacy policy" },
     ],

@@ -25,12 +25,13 @@ export default function Team() {
                   <div key={index}>
                     <div className="panel vstack gap-2">
                       <Image
-                        className="w-100 rounded"
-                        src={member.imageSrc}
-                        width={400}
-                        height={400}
-                        alt={member.altText}
-                      />
+  className="w-100 rounded"
+  src={member.imageSrc}
+  width={400}
+  height={400}
+  alt={member.altText}
+  style={{ filter: 'sepia(100%)' }}
+/>
                       <div className="panel vstack items-start gap-0">
                         <h6 className="h6 m-0">{member.name}</h6>
                         <span className="fs-7 opacity-70">

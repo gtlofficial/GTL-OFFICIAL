@@ -38,7 +38,7 @@ const FilterGallery = () => {
                 {['All', 'Bigcommerce', 'React', 'Shopify', 'Squarespace', 'Wordpress', 'Government'].map((filter) => (
                   <button
                     key={filter}
-                    className={`btn ${activeFilter === filter ? 'btn-primary' : 'btn-outline-primary'}`}
+                    className={`btn ${activeFilter === filter ? 'btn-outline-primary' : 'btn-primary'}`}
                     onClick={() => setActiveFilter(filter)}
                   >
                     {filter}
