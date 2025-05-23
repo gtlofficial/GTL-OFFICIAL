@@ -10,7 +10,7 @@ export default function Integretion() {
       className="integrations section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9 bg-secondary dark:bg-primary dark:text-white">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
               className="panel vstack items-center gap-4 sm:gap-6 xl:gap-8"

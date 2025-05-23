@@ -7,13 +7,13 @@ import { footerLinks, socialLinks } from "@/data/footer";
 export default function Footer2() {
   return (
     <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
-      <div className="footer-outer py-4 lg:py-6 xl:py-9 dark:bg-gray-900 dark:text-white">
+      <div className="footer-outer py-4 lg:py-6 xl:py-8 dark:bg-gray-900 dark:text-white">
         <div className="container max-w-xl">
-          <div className="footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
+          <div className="footer-inner vstack gap-1">
             <div className="uc-footer-widgets panel">
               <div className="row child-cols-6 md:child-cols col-match g-4">
                 <div className="col-12 lg:col-4">
-                  <div className="panel vstack items-start gap-4 ltr:md:pe-8 rtl:md:ps-8">
+                  <div className="panel vstack items-start gap-1 ltr:md:pe-8 rtl:md:ps-8">
                     <div className="vstack gap-2">
                       <Link href={`/`}>
                         <img
@@ -63,26 +63,26 @@ export default function Footer2() {
                 ))}
               </div>
             </div>
-            <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
-              <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
-                <p className="opacity-60">
-                  Gtl © {new Date().getFullYear()}, All rights reserved.
-                </p>
-              </div>
-              <div className="hstack justify-center lg:justify-end gap-2 lg:gap-3">
-                <ul className="nav-x gap-2">
-                  {socialLinks.map((link, index) => (
-                    <li key={index}>
-                      <a href={link.href}>
-                        <i className={`icon icon-2 ${link.iconClass}`} />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-                <div className="vr" />
-                <LanguageSelect />
-              </div>
-            </div>
+            <div className="uc-footer-bottom panel hstack justify-between items-center pt-4 lg:pt-6 border-top dark:text-white">
+  <div className="hstack justify-start items-center gap-1 lg:gap-2">
+    <p className="opacity-60">
+      Gtl © {new Date().getFullYear()}, All rights reserved.
+    </p>
+  </div>
+  <div className="hstack justify-end items-center gap-2 lg:gap-3">
+    <ul className="nav-x gap-2">
+      {socialLinks.map((link, index) => (
+        <li key={index}>
+          <a href={link.href}>
+            <i className={`icon icon-2 ${link.iconClass}`} />
+          </a>
+        </li>
+      ))}
+    </ul>
+    <div className="vr" />
+    <LanguageSelect />
+  </div>
+</div>
           </div>
         </div>
       </div>

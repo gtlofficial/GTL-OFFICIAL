@@ -19,7 +19,7 @@ const FilterGallery = () => {
       className="filter-gallery section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9 pb-6 xl:pb-9 bg-secondary dark:bg-primary dark:text-white">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
               className="panel vstack items-center gap-4 sm:gap-6 xl:gap-8"
@@ -55,7 +55,7 @@ const FilterGallery = () => {
                       src={item.image} 
                       className="card-img-top" 
                       alt={item.title}
-                      style={{ height: '200px', objectFit: 'cover' }}
+                      style={{  objectFit: 'cover' }}
                     />
                     <div className="card-body">
                       <h5 className="card-title m-0">{item.title}</h5>

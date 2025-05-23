@@ -11,7 +11,7 @@ export default function Facts() {
       className="about-values section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9 bg-secondary dark:bg-gray-800">
-        <div className="container max-w-lg">
+        <div className="container max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 lg:gap-6 xl:gap-8">
               <h2

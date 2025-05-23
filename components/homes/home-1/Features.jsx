@@ -11,12 +11,12 @@ export default function Features() {
       className="main-features section panel overflow-hidden"
     >
       <div className="section-outer panel py-6 xl:py-9 pb-6 xl:pb-9">
-        <div className="container max-w-xl lg:max-w-lg">
+        <div className="container max-w-xl">
           <div
             className="section-inner panel"
             data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});"
           >
-            <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
+            <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-xl mx-auto text-center">
               <h2 className="h3 lg:h2 xl:h1 m-0">
                 What we do
               </h2>
