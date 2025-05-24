@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
-      <div className="section-outer panel py-6 xl:py-9 pt-9 lg:pt-10 bg-secondary dark:bg-gray-900">
+      <div className="section-outer panel py-6 xl:py-9 pt-9 lg:pt-10 bg-gray-900">
         <div
           className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block"
           data-anime="onview: -100; targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 750});"
@@ -154,10 +154,59 @@ export default function Hero() {
         </div>
         <div className="container max-w-xl">
           <div className="section-inner panel py-4">
+            <div className="vstack gap-6 sm:gap-8 xl:gap-9">
+                <div className="panel text-center max-w-850px mx-auto uc-dark">
+                  <div
+                    className="vstack items-center gap-2 text-white"
+                    data-anime="targets: >*; translateY: [24, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
+                  >
+                    <h1 className="h2 sm:h1 lg:display-6 xl:display-4 mt-4 sm:mt-0">
+                      We Are Leading{" "}
+                      <br className="d-none sm:d-block" />
+                      Shopify Experts
+                    </h1>
+                    <Link
+                      href={`/page-pricing`}
+                      className="btn btn-md lg:btn-lg btn-primary text-white min-w-150px sm:mt-1 lg:mt-2"
+                    >
+                      Getting Start
+                    </Link>
+                    <div className="hstack justify-center gap-2 mt-1 sm:mt-2">
+                      <div className="hstack justify-center gap-0">
+                        <Image
+                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-gray-900"
+                          alt="Avatar image"
+                          src="/assets/images/avatars/03.png"
+                          width="150"
+                          height="150"
+                        />
+                        <Image
+                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-gray-900"
+                          alt="Avatar image"
+                          src="/assets/images/avatars/02.png"
+                          width="150"
+                          height="150"
+                        />
+                        <Image
+                          className="w-40px rounded-circle ltr:ms-n2 rtl:me-n2 border border-2 border-gray-900"
+                          alt="Avatar image"
+                          src="/assets/images/avatars/08.png"
+                          width="150"
+                          height="150"
+                        />
+                      </div>
+                      <span className="fs-7 sm:fs-6 fw-medium opacity-60">
+                        With Over 3000+ Shopify Stores Sucessfully Completed & Over 7500+ reviews across all platforms
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             <div className="row child-cols justify-center lg:justify-between items-center gy-4 sm:gy-6 gx-0">
               <div className="col-12 sm:col-9 lg:col-5">
                 <div
-                  className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end"
+                  className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end uc-dark"
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
                   <span className="fs-6 fw-bold text-primary dark:text-secondary">
@@ -217,16 +266,6 @@ export default function Hero() {
                       height="942"
                     />
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="brands panel overflow-hidden mt-4 sm:mt-6 lg:mt-8 opacity-50">
-              <div
-                className="block-panel panel"
-                data-anime="opacity: [0, 1]; duration: 450; delay: 750;"
-              >
-                <div className="element-brands text-gray-900 dark:text-white">
-                  <Brands />
                 </div>
               </div>
             </div>

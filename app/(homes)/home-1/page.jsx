@@ -1,15 +1,15 @@
 import Header1 from "@/components/headers/Header1";
 import Features from "@/components/homes/home-1/Features";
-import Hero from "@/components/homes/home-1/Hero";
+import Hero from "@/components/homes/home-2/Hero";
 import Integretion from "@/components/homes/home-1/Integretion";
 import Facts from "@/components/homes/home-1/Facts";
+import KeyFeatures from "@/components/homes/home-3/KeyFeatures";
 import Pricing from "@/components/common/Pricing";
 import Feedback from "@/components/homes/home-2/Feedback";
 import Timeline from "@/components/homes/home-1/Timeline";
-import Team from "@/components/homes/home-1/Team";
+import Brands3 from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
 import Footer2 from "@/components/footers/Footer2";
-import FilterGallery from "@/components/homes/home-1/FilterGallery";
 export const metadata = {
   title:
     "Galactic Technologies | Custom Web & App Development Company",
@@ -23,14 +23,34 @@ export default function HomePage1() {
         <Header1 />
         <div id="wrapper" className="wrap">
           <Hero />
-          <FilterGallery />
           <Features />
           <Integretion />
-          <Team />
+          <KeyFeatures />
           <Facts />
           <Pricing />
           <Timeline />
           <Feedback />
+          <div
+                      id="clients_brands"
+                      className="clients-brands section panel overflow-hidden"
+                    >
+                      <div className="section-outer panel pt-6 pb-8 sm:pt-8 sm:pb-9 xl:py-9">
+                        <h5
+                          className="h6 sm:h5 text-center mb-4 sm:mb-6 xl:mb-8"
+                          data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 200;"
+                        >
+                          Trusted by well-known brands.
+                        </h5>
+                        <div
+                          className="block-panel panel"
+                          data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
+                        >
+                          <div className="element-brands max-w-950px m-auto text-gray-900 dark:text-white">
+                            <Brands3 />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
           <Cta />
         </div>
         <Footer2 />

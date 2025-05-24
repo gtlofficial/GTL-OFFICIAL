@@ -47,10 +47,10 @@ const FilterGallery = () => {
               </div>
             </div>
             
-            <div className="row g-4">
+            <div className="row child-cols-6 lg:child-cols-3 col-match gy-4 lg:gy-8 gx-2 lg:gx-4">
               {filteredItems.map((item) => (
-                <div key={item.id} className="col-md-4 col-lg-4">
-                  <div className="card h-100 overflow-hidden">
+                <div key={item.id} className="vstack gap-2">
+                  <div className="card panel">
                     <img 
                       src={item.image} 
                       className="card-img-top" 

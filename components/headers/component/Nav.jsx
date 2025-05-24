@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <>
       <li>
-        <Link href={`/page-integretions`}>Services</Link>
+        <Link href={`/page-integrations`}>Services</Link> 
       </li>
       <li>
         <Link href={`/page-pricing`}>Pricing</Link>

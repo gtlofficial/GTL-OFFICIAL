@@ -45,4 +45,19 @@ export const filterGalleryData = [
     category: 'Shopify', 
     image: '/assets/images/filter-gallery/img-09.png' 
 },
+{ id: 10, 
+    title: 'Flameless candles', 
+    category: 'Shopify', 
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 11, 
+    title: 'Flameless candles', 
+    category: 'Shopify', 
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 12, 
+    title: 'Flameless candles', 
+    category: 'Shopify', 
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
 ];

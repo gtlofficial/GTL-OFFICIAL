@@ -2,21 +2,33 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import Brands from "@/components/common/Brands";
 
 export default function Features() {
   const [activeTab, setActiveTab] = useState(1);
   return (
     <div
       id="main_features"
-      className="main-features section panel overflow-hidden"
+      className="main-features section panel overflow-hidden dark:bg-gray-800 dark:text-white"
     >
-      <div className="section-outer panel py-6 xl:py-9 pb-6 xl:pb-9">
+      <div className="section-outer panel">
         <div className="container max-w-xl">
           <div
             className="section-inner panel"
             data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});"
           >
-            <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-xl mx-auto text-center">
+            
+            <div className="brands panel overflow-hidden mt-4 sm:mt-6 lg:mt-8 opacity-50">
+              <div
+                className="block-panel panel"
+                data-anime="opacity: [0, 1]; duration: 450; delay: 750;"
+              >
+                <div className="element-brands text-gray-900 dark:text-white">
+                  <Brands />
+                </div>
+              </div>
+            </div>
+            <div className="panel vstack items-center gap-2 xl:gap-3 mb-4 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-xl mx-auto text-center pt-6 xl:pt-9">
               <h2 className="h3 lg:h2 xl:h1 m-0">
                 What we do
               </h2>
@@ -31,7 +43,7 @@ We also excel in Shopify app development using Remix and custom Shopify theme de
 Whether you're an ambitious startup or a global enterprise, our dedicated team crafts tailored digital solutions designed to grow with you. Expect nothing less than precision, reliability, and results—every time.
               </p>
             </div>
-            <div className="panel vstack gap-4 xl:gap-6">
+            <div className="panel vstack gap-4 xl:gap-6  pb-6 xl:pb-9">
               <div className="panel px-3 rounded-2 bg-secondary dark:bg-gray-800">
                 <ul
                   className="main-features-nav hstack text-center overflow-auto"

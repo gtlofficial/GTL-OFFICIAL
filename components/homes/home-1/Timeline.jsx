@@ -6,7 +6,7 @@ export default function Timeline() {
   return (
     <div
       id="about-timeline"
-      className="about-timeline section panel overflow-hidden bg-secondary dark:bg-gray-800"
+      className="about-timeline section panel overflow-hidden bg-secondary dark:bg-gray-900"
     >
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container max-w-lg">

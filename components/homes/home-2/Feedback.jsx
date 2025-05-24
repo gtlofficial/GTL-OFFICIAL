@@ -6,7 +6,7 @@ export default function Feedback() {
   return (
     <div
       id="clients_feedbacks"
-      className="clients-feedbacks section panel overflow-hidden"
+      className="clients-feedbacks section panel overflow-hidden dark:bg-gray-800 dark:text-white"
     >
       <div className="section-outer panel py-6 xl:py-9">
         <div className="container max-w-xl">

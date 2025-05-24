@@ -6,7 +6,7 @@ export default function KeyFeatures() {
   return (
     <div
       id="key_features"
-      className="key-features section panel overflow-hidden bg-gray-900 uc-dark"
+      className="key-features section panel overflow-hidden dark:bg-gray-900 dark:uc-dark"
     >
       <div className="section-outer panel py-6 xl:py-9 dark:bg-gray-800">
         <div className="container sm:max-w-md lg:max-w-lg">
@@ -17,7 +17,7 @@ export default function KeyFeatures() {
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
                 Review quickly and confidently using
-                <span className="text-primary"> Lexend.</span>
+                <span className="text-primary"> GTL.</span>
               </h2>
               <div className="panel">
                 <div
