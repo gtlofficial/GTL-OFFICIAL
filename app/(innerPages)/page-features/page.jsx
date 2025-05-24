@@ -5,7 +5,7 @@ import Hero from "@/components/innerpages/features/Hero";
 import KeyFeatures from "@/components/innerpages/features/KeyFeatures";
 import Faq from "@/components/homes/home-2/Faq";
 import Testimonials from "@/components/homes/home-3/Testimonials";
-import Cta from "@/components/innerpages/features/Cta";
+import Cta from "@/components/homes/home-3/Cta";
 import Brands2 from "@/components/common/Brands2";
 export const metadata = {
   title:

@@ -5,7 +5,7 @@ import Contact1 from "@/components/innerpages/Contact1";
 import ContactLinks from "@/components/innerpages/ContactLinks";
 import Faq from "@/components/homes/home-2/Faq";
 import Brands from "@/components/common/Brands2";
-import Blogs from "@/components/homes/home-2/Blogs";
+import Cta from "@/components/homes/home-3/Cta";
 export const metadata = {
   title:
     "Contact 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -43,7 +43,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          <Blogs />
+          <Cta/>
         </div>
         <Footer2 />
       </div>
