@@ -10,19 +10,22 @@ export default function Nav() {
   return (
     <>
       <li>
+        <Link href={`/page-about`}>About</Link>
+      </li>
+      <li>
         <Link href={`/page-integrations`}>Services</Link> 
       </li>
       <li>
-        <Link href={`/page-pricing`}>Pricing</Link>
+        <Link href={`/page-features`}>Features</Link> 
       </li>
       <li>
         <Link href={`/page-work`}>Work</Link>
       </li>
       <li>
-        <Link href={`/page-about`}>About</Link>
+        <Link href={`/page-pricing`}>Pricing</Link>
       </li>
       <li>
-        <Link href={`/page-contact-2`}>Contact</Link>
+        <Link href={`/page-contact`}>Contact</Link>
       </li>
       <li className="has-dd-menu">
         <a role="button" aria-haspopup="true">

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 import { openContactModal } from "@/utlis/toggleContactModal";
 import LanguageSelect2 from "../common/LanguageSelect2";
+import CalendlyButton from "./component/CalendlyButton";
  import { useEffect, useState } from "react";
 
 export default function Header1() {
@@ -76,28 +77,11 @@ export default function Header1() {
               </ul>
             </div>
             <div className="uc-navbar-right">
-              <div className="d-none xl:d-block">
-                <a
-                  className="text-none fw-medium"
-                  onClick={openContactModal}
-                  data-uc-toggle=""
-                  role="button"
-                >
-                  <span>Request a demo</span>
-                </a>
-              </div>
-              <div className="d-none lg:d-block">
-                <Link className="text-none fw-medium" href={`/sign-in`}>
-                  <span>Log in</span>
-                </Link>
-              </div>
-              <Link
+              <CalendlyButton
                 className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
-                href={`/page-pricing`}
               >
-                Start free trial
-              </Link>
-              <LanguageSelect2 />
+                Book An Appointment
+              </CalendlyButton>
               <a
                 className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                 onClick={openMobileMenu}
