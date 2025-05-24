@@ -12,7 +12,7 @@ export default function Footer2() {
           <div className="footer-inner vstack gap-1">
             <div className="uc-footer-widgets panel">
               <div className="row child-cols-6 md:child-cols col-match g-4">
-                <div className="col-12 lg:col-4">
+                <div className="col-12 lg:col-3">
                   <div className="panel vstack items-start gap-1 ltr:md:pe-8 rtl:md:ps-8">
                     <div className="vstack gap-2">
                       <Link href={`/`}>
@@ -22,9 +22,6 @@ export default function Footer2() {
                           src="/assets/images/common/logo-dark.svg"
                         />
                       </Link>
-                      <p>
-                        To empower businesses and startups by turning ideas into reality with innovative, efficient, and future-ready digital solutions.
-                      </p>
                     </div>
                     <div className="hstack items-start gap-1">
                       <a href="#">
@@ -50,8 +47,17 @@ export default function Footer2() {
                     </div>
                   </div>
                 </div>
+                
+                <div className="col-12 lg:col-3">
+                  <div className="panel vstack items-start gap-1">
+                    <p className="opacity-80">
+                     Galactic Technologies is a leading IT company founded in 2015, offering custom website, app, theme, and full-stack development services to help your business grow online. To empower businesses and startups by turning ideas into reality with innovative, efficient, and future-ready digital solutions.
+                    </p>
+                  </div>
+                </div>
+                
                 {footerLinks.map((section, index) => (
-                  <div key={index}>
+                  <div key={index} className="col-6 md:col-3 lg:col-2">
                     <ul className="nav-y gap-1 fw-medium">
                       {section.links.map((link, i) => (
                         <li key={i}>
@@ -64,24 +70,23 @@ export default function Footer2() {
               </div>
             </div>
             <div className="uc-footer-bottom panel hstack justify-between items-center pt-4 lg:pt-6 border-top dark:text-white">
-  <div className="hstack justify-start items-center gap-1 lg:gap-2">
-    <p className="opacity-60">
-      GTL © {new Date().getFullYear()}, All rights reserved.
-    </p>
-  </div>
-  <div className="hstack justify-end items-center gap-2 lg:gap-3">
-    <ul className="nav-x gap-2">
-      {socialLinks.map((link, index) => (
-        <li key={index}>
-          <a href={link.href}>
-            <i className={`icon icon-2 ${link.iconClass}`} />
-          </a>
-        </li>
-      ))}
-    </ul>
-    
-  </div>
-</div>
+              <div className="hstack justify-start items-center gap-1 lg:gap-2">
+                <p className="opacity-60">
+                  GTL © {new Date().getFullYear()}, All rights reserved.
+                </p>
+              </div>
+              <div className="hstack justify-end items-center gap-2 lg:gap-3">
+                <ul className="nav-x gap-2">
+                  {socialLinks.map((link, index) => (
+                    <li key={index}>
+                      <a href={link.href}>
+                        <i className={`icon icon-2 ${link.iconClass}`} />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

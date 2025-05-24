@@ -11,6 +11,7 @@ export const footerLinks = [
     links: [
       { href: "/page-work", label: "Our Work" },
       { href: "/page-features", label: "Features" },
+      { href: "/page-career", label: "Blogs" },
       { href: "/page-faq", label: "Faq's" },
     ],
   },
