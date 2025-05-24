@@ -30,11 +30,11 @@ export default function Integretion() {
               >
                 {integrations.map((integration, index) => (
                   <div key={index}>
-                    <div className="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 bg-white text-dark">
+                    <div className="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 bg-white dark:bg-gray-800 text-dark dark:text-white">
                       <div className="vstack gap-3">
                         <div className="hstack justify-between items-center">
                           <div className="vstack">
-                            <h5 className="h5 m-0 text-dark">
+                            <h5 className="h5 m-0 text-dark dark:text-white">
                               {integration.name}
                             </h5>
                             <span className="fs-7 opacity-70 dark:opacity-80">

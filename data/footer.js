@@ -4,15 +4,14 @@ export const footerLinks = [
       { href: "/page-about", label: "About" },
       { href: "/page-pricing", label: "Pricing" },
       { href: "/page-integrations", label: "Services" },
-      { href: "/page-contact-2", label: "Contact" },
+      { href: "/page-contact", label: "Contact" },
     ],
   },
   {
     links: [
-      { href: "/sign-in", label: "Request a demo" },
-      { href: "/sign-in-2", label: "Sign in" },
-      { href: "/sign-up-2", label: "Sign up" },
-      { href: "/reset-password-2", label: "Reset password" },
+      { href: "/page-work", label: "Our Work" },
+      { href: "/page-features", label: "Features" },
+      { href: "/page-faq", label: "Faq's" },
     ],
   },
   {

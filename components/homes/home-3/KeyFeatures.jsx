@@ -26,7 +26,7 @@ export default function KeyFeatures() {
                 >
                   {features4.map((feature, index) => (
                     <div key={index}>
-                      <div className="feature-item panel p-4 border rounded-2 hover:bg-white dark:hover:bg-secondary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all">
+                      <div className="feature-item panel p-4 border rounded-2 hover:bg-primary dark:hover:bg-secondary dark:text-white dark:hover:text-gray-900 hover:scale-105 duration-150 transition-all">
                         <div className="vstack panel min-h-250px">
                           <i className="position-absolute top-0 ltr:end-0 rtl:start-0 icon-2 unicon-arrow-up-right rtl:-rotate-90" />
                           <div className="vstack justify-between gap-2 h-100">

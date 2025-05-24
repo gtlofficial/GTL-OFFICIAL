@@ -5,6 +5,7 @@ import Nav from "./component/Nav";
 import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
 import { openContactModal } from "@/utlis/toggleContactModal";
+import CalendlyButton from "./component/CalendlyButton";
 import LanguageSelect2 from "../common/LanguageSelect2";
 
 export default function Header2() {
@@ -51,7 +52,7 @@ export default function Header2() {
           scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
         }`}
       >
-        <div className="container max-w-xl">
+        <div className="container max-w-100 px-4">
           <div className="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white">
             <div className="uc-navbar-left">
               <div className="uc-logo text-dark dark:text-white">
@@ -81,27 +82,11 @@ export default function Header2() {
               </ul>
             </div>
             <div className="uc-navbar-right">
-              <div className="d-none xl:d-block">
-                <a
-                  className="text-none fw-medium"
-                  onClick={openContactModal}
-                  role="button"
-                >
-                  <span>Request a demo</span>
-                </a>
-              </div>
-              <div className="d-none lg:d-block">
-                <Link className="text-none fw-medium" href={`/sign-in`}>
-                  <span>Log in</span>
-                </Link>
-              </div>
-              <Link
+              <CalendlyButton
                 className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
-                href={`/page-pricing`}
               >
-                Start free trial
-              </Link>
-              <LanguageSelect2 />
+                Book An Appointment
+              </CalendlyButton>
               <a
                 className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                 onClick={openMobileMenu}

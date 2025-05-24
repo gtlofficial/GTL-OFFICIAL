@@ -7,8 +7,8 @@ import { footerLinks, socialLinks } from "@/data/footer";
 export default function Footer2() {
   return (
     <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
-      <div className="footer-outer py-4 lg:py-6 xl:py-8 dark:bg-gray-900 dark:text-white">
-        <div className="container max-w-xl">
+      <div className="footer-outer p-4 lg:p-6 xl:p-8 dark:bg-gray-900 dark:text-white">
+        <div className="container max-w-100">
           <div className="footer-inner vstack gap-1">
             <div className="uc-footer-widgets panel">
               <div className="row child-cols-6 md:child-cols col-match g-4">
@@ -18,7 +18,7 @@ export default function Footer2() {
                       <Link href={`/`}>
                         <img
                           className=" text-primary"
-                          alt="Lexend"
+                          alt="GTL"
                           src="/assets/images/common/logo-dark.svg"
                         />
                       </Link>
@@ -66,7 +66,7 @@ export default function Footer2() {
             <div className="uc-footer-bottom panel hstack justify-between items-center pt-4 lg:pt-6 border-top dark:text-white">
   <div className="hstack justify-start items-center gap-1 lg:gap-2">
     <p className="opacity-60">
-      Gtl © {new Date().getFullYear()}, All rights reserved.
+      GTL © {new Date().getFullYear()}, All rights reserved.
     </p>
   </div>
   <div className="hstack justify-end items-center gap-2 lg:gap-3">
@@ -79,8 +79,7 @@ export default function Footer2() {
         </li>
       ))}
     </ul>
-    <div className="vr" />
-    <LanguageSelect />
+    
   </div>
 </div>
           </div>

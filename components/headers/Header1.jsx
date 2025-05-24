@@ -44,7 +44,7 @@ export default function Header1() {
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
         style={{ transform: "translateY(0px)", opacity: 1 }}
       >
-        <div className="container max-w-xl">
+        <div className="container max-w-100 px-4">
           <div
             className="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white"
             data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;"

@@ -5,7 +5,7 @@ import React from "react";
 export default function Faq() {
   return (
     <div id="faq" className="section panel overflow-hidden">
-      <div className="section-outer panel pb-6 xl:pb-9">
+      <div className="section-outer panel pt-6 pb-6 xl:pb-9 xl:pt-9">
         <div className="container max-w-lg">
           <div
             className="section-inner panel"

@@ -203,7 +203,7 @@ export default function Hero() {
                 </div>
               </div>
 
-            <div className="row child-cols justify-center lg:justify-between items-center gy-4 sm:gy-6 gx-0">
+            <div className="row child-cols justify-center lg:justify-between items-center gy-4 sm:gy-6 gx-0 pt-8">
               <div className="col-12 sm:col-9 lg:col-5">
                 <div
                   className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end uc-dark"

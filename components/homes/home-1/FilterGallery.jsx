@@ -18,7 +18,7 @@ const FilterGallery = () => {
       id="filter-gallery"
       className="filter-gallery section panel overflow-hidden"
     >
-      <div className="section-outer panel py-6 xl:py-9 pb-6 xl:pb-9 bg-secondary dark:bg-primary dark:text-white">
+      <div className="section-outer panel py-6 xl:py-9 pb-6 xl:pb-9 bg-secondary dark:bg-gray-800 dark:text-white">
         <div className="container max-w-xl">
           <div className="section-inner panel">
             <div
@@ -50,7 +50,7 @@ const FilterGallery = () => {
             <div className="row child-cols-6 lg:child-cols-3 col-match gy-4 lg:gy-8 gx-2 lg:gx-4">
               {filteredItems.map((item) => (
                 <div key={item.id} className="vstack gap-2">
-                  <div className="card panel">
+                  <div className="card panel bg-transparent dark:bg-gray-900">
                     <img 
                       src={item.image} 
                       className="card-img-top" 
