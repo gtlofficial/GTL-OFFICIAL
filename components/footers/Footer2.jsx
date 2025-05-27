@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CalendlyButton from "../headers/component/CalendlyButton";
 import LanguageSelect from "../common/LanguageSelect";
 import { footerLinks, socialLinks } from "@/data/footer";
 
@@ -53,6 +54,11 @@ export default function Footer2() {
                     <p className="opacity-80">
                      Galactic Technologies is a leading IT company founded in 2015, offering custom website, app, theme, and full-stack development services to help your business grow online. To empower businesses and startups by turning ideas into reality with innovative, efficient, and future-ready digital solutions.
                     </p>
+                    <CalendlyButton
+                className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
+              >
+                Book An Appointment
+              </CalendlyButton>
                   </div>
                 </div>
                 
