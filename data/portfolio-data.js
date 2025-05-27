@@ -1,0 +1,155 @@
+export const portfolioData = [
+  { id: 1, 
+    title: 'frontman', 
+    category: 'Squarespace', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-01.png' 
+},
+  { id: 2, 
+    title: 'Paragon', 
+    category: 'Squarespace', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-02.png' 
+},
+  { id: 3, 
+    title: 'redcreative', 
+    category: 'Squarespace', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-03.png' 
+},
+  { id: 4, 
+    title: 'Dansimon', 
+    category: 'Squarespace', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-04.png' 
+},
+  { id: 5, 
+    title: 'Rev up', 
+    category: 'Shopify', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-05.png' 
+},
+  { id: 6, 
+    title: 'Trompe loeil', 
+    category: 'Shopify', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-06.png' 
+},
+  { id: 7, 
+    title: 'Lavapor Wholesale', 
+    category: 'Shopify', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-07.png' 
+},
+  { id: 8, 
+    title: 'Harbour 9', 
+    category: 'Shopify', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-08.png' 
+},
+  { id: 9, 
+    title: 'Flameless candles', 
+    category: 'Shopify',
+	website: 'https://lavaporwholesale.com/', 
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 10, 
+    title: 'Flameless candles', 
+    category: 'Shopify', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 11, 
+    title: 'Flameless candles', 
+    category: 'Shopify',
+website: 'https://lavaporwholesale.com/'	,
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 12, 
+    title: 'Flameless candles', 
+    category: 'Shopify', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 13, 
+    title: 'Flameless candles', 
+    category: 'Bigcommerce', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 14, 
+    title: 'Flameless candles', 
+    category: 'Bigcommerce', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+{ id: 15, 
+    title: 'Flameless candles', 
+    category: 'Bigcommerce', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+
+  { id: 16, 
+    title: 'Trompe loeil', 
+    category: 'Wordpress', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-06.png' 
+},
+  { id: 17, 
+    title: 'Lavapor Wholesale', 
+    category: 'Wordpress', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-07.png' 
+},
+  { id: 18, 
+    title: 'Harbour 9', 
+    category: 'Wordpress', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-08.png' 
+},
+  { id: 19, 
+    title: 'Flameless candles', 
+    category: 'Wordpress', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-09.png' 
+},
+
+  { id: 20, 
+    title: 'Paragon', 
+    category: 'React', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-02.png' 
+},
+  { id: 21, 
+    title: 'redcreative', 
+    category: 'React', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-03.png' 
+},
+  { id: 22, 
+    title: 'Dansimon', 
+    category: 'React', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-04.png' 
+},
+  { id: 23, 
+    title: 'Rev up', 
+    category: 'React', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-05.png' 
+},
+
+  { id: 24, 
+    title: 'Dansimon', 
+    category: 'Government', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-04.png' 
+},
+  { id: 25, 
+    title: 'Rev up', 
+    category: 'Government', 
+	website: 'https://lavaporwholesale.com/',
+    image: '/assets/images/filter-gallery/img-05.png' 
+},
+];
