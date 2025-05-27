@@ -8,8 +8,8 @@ const CalendlyButton = ({ className, children }) => {
     if (window.Calendly) {
       window.Calendly.initBadgeWidget({
         url: 'https://calendly.com/gtl-official',
-        text: 'Schedule time with me',
-        color: '#0069ff',
+        text: 'Book an Appointment',
+        color: '#000000',
         textColor: '#ffffff',
         branding: false
       });

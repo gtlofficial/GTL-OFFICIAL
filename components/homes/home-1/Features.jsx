@@ -33,15 +33,10 @@ export default function Features() {
                 What we do
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                At the heart of our services lies a commitment to innovative, scalable, and high-quality software development. We offer end-to-end solutions across a wide spectrum of platforms and technologies, including:
-<br></br>
-eCommerce Platforms: Shopify, WordPress, and BigCommerce<br></br>
-Mobile App Development: Specializing in React Native<br></br>
-Frontend Technologies: HTML, CSS, React, Angular<br></br>
-Backend Development: Node.js<br></br>
-We also excel in Shopify app development using Remix and custom Shopify theme development, bringing seamless performance and enhanced user experience to online stores.
-Whether you're an ambitious startup or a global enterprise, our dedicated team crafts tailored digital solutions designed to grow with you. Expect nothing less than precision, reliability, and results—every time.
-              </p>
+              We specialize in creating innovative, scalable, and high-quality software solutions tailored to your needs. From eCommerce platforms like Shopify, WordPress, and BigCommerce to mobile app development with React Native, our expertise spans a wide range of technologies. Our frontend skills include HTML, CSS, React, and Angular, while on the backend, we build robust systems using Node.js.
+</p>
+<p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
+With deep experience in Shopify app development using Remix and custom theme creation, we enhance online stores with seamless performance and user-friendly design. Whether you're a startup or a global enterprise, our team delivers precise, reliable solutions that grow with your vision.</p>
             </div>
             <div className="panel vstack gap-4 xl:gap-6  pb-6 xl:pb-9">
               <div className="panel px-3 rounded-2 bg-secondary dark:bg-gray-800">

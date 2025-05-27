@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from 'react';
 import { portfolioData } from "@/data/portfolio-data";
+import CalendlyButton from "../headers/component/CalendlyButton";
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('All');
@@ -104,9 +105,11 @@ const Portfolio = () => {
               <p className="text-muted mb-4">
                 Let's work together on your next project
               </p>
-              <button className="btn btn-primary px-4">
-                Get in Touch
-              </button>
+              <CalendlyButton
+                className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
+              >
+                Book An Appointment
+              </CalendlyButton>
             </div>
           </div>
         )}
