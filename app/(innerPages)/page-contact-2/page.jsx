@@ -8,9 +8,9 @@ import Contact2 from "@/components/innerpages/Contact2";
 import ContactLinks2 from "@/components/innerpages/ContactLinks2";
 export const metadata = {
   title:
-    "Contact Us | Start Your Digital Project with Galactic Technologies",
+    "Contact Us || Start Your Digital Project with GTL Web Solutions",
   description:
-    "GTL - Get in touch with Galactic Technologies for web, app, and software development. Let’s build something exceptional together. We’re here to discuss your project ideas.",
+    "GTL - Get in touch with GTL Web Solutions for web, app, and software development. Let’s build something exceptional together. We’re here to discuss your project ideas.",
 };
 export default function ContactPage2() {
   return (
