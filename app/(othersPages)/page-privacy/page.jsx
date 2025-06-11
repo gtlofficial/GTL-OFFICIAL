@@ -5,9 +5,9 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import Privacy from "@/components/otherPages/Privacy";
 export const metadata = {
   title:
-    "Privacy || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Privacy Policy || GTL Web Solutions",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Learn how GTL Web Solutions collects, uses, and protects your personal data. Review our privacy practices to stay informed and secure while using our services.",
 };
 export default function PrivacyPage() {
   return (
