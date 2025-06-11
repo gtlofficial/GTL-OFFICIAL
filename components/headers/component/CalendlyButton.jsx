@@ -19,7 +19,7 @@ const CalendlyButton = ({ className, children }) => {
   const handleClick = (e) => {
     e.preventDefault();
     if (window.Calendly) {
-      window.Calendly.initPopupWidget({ url: 'https://calendly.com/gtl-official' });
+      window.Calendly.initPopupWidget({ url: 'https://calendly.com/gtl-official/30min' });
     }
   };
 
