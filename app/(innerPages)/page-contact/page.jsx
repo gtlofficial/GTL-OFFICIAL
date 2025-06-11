@@ -8,7 +8,7 @@ import Brands from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
 export const metadata = {
   title:
-    "Contact 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Contact us",
   description:
     "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
