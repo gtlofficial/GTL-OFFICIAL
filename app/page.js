@@ -1,9 +1,9 @@
 import Home1 from "./(homes)/home-1/page";
 export const metadata = {
   title:
-    "Home 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GTL Web Solutions | Shopify & Web Development Experts",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "We build high-converting Shopify stores and custom websites. With 13+ years of experience, GTL Web Solutions helps brands grow, optimize, and scale online.",
 };
 export default function HomePage1() {
   return (
