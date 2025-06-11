@@ -8,7 +8,7 @@ import Brands from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
 export const metadata = {
   title:
-    "Contact GTL Web Solutions | Let's Talk About Your Project",
+    "Contact GTL Web Solutions || Let's Talk About Your Project",
   description:
     "Get in touch with GTL Web Solutions for expert Shopify, web development, or design services. We're here to answer questions and start your next project.",
 };
