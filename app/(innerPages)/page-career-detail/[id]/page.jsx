@@ -8,9 +8,9 @@ import Brands from "@/components/innerpages/Brands";
 import { jobListings } from "@/data/career";
 export const metadata = {
   title:
-    "Career Details || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Career Opportunities || GTL Web Solutions",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Explore detailed job openings at GTL Web Solutions. Find roles that match your skills in web development, design, or project management, and apply today.",
 };
 export default async function CareerDetailsPage(props) {
   const params = await props.params;
