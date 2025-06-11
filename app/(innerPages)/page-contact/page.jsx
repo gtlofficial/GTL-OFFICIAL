@@ -8,9 +8,9 @@ import Brands from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
 export const metadata = {
   title:
-    "Contact us",
+    "Contact GTL Web Solutions | Let's Talk About Your Project",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Get in touch with GTL Web Solutions for expert Shopify, web development, or design services. We're here to answer questions and start your next project.",
 };
 export default function ContactPage() {
   return (
