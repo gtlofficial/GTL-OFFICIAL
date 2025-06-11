@@ -11,7 +11,7 @@ import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/homes/home-3/Cta";
 export const metadata = {
   title:
-    "About Us | GTL Web Solutions – Innovators in Digital Development",
+    "About Us || GTL Web Solutions – Innovators in Digital Development",
   description:
     "GTL - Learn about GTL Web Solutions, founded by Ritesh Dhiman in 2013, dedicated to building powerful digital solutions that drive innovation and growth.",
 };
