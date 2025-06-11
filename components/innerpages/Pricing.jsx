@@ -127,10 +127,10 @@ export default function Pricing() {
                               {tier.title === "Essentials"
                                 ? "Key features:"
                                 : `Services Include: ${
-                                  //   tier.title === "Business"
-                                  //     ? "Essentials"
-                                  //     : "Business"
-                                  // }, plus:`}
+                                    tier.title === "Business"
+                                      ? "Essentials"
+                                      : "Business"
+                                  }, plus:`}
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
