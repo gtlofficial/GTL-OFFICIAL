@@ -9,7 +9,7 @@ import Cta from "@/components/homes/home-3/Cta";
 import Integrations from "@/components/innerpages/Integrations";
 export const metadata = {
   title:
-    "Our Services | Web, App, Theme & Full-Stack Development – GTL Web Solutions",
+    "Our Services || Web, App, Theme & Full-Stack Development – GTL Web Solutions",
   description:
     "GTL - Explore a full suite of services including website development, mobile app development, custom theme design, frontend & backend development tailored to your business needs.",
 };
