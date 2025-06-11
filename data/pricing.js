@@ -184,7 +184,7 @@ export const tiers3 = [
     description: "With prime focus on Shopify We offer following store management services",
     price: "$360 USD",
     yearlyPrice: "$310 USD",
-    priceDetails: "Per Month",
+    priceDetails: "Per Month Pricing",
     linkText: "Get A Quote",
     linkSubtext: "No credit card required",
     features: [
@@ -204,7 +204,7 @@ export const tiers3 = [
     description: "So we offer complete store development service as well as Complete website developement from scratch.",
     price: "$2800 USD",
     yearlyPrice: "-Na-",
-    priceDetails: "Per Website",
+    priceDetails: "Per Website Pricing",
     linkText: "Get A Quote",
     linkSubtext: "No credit card required",
     features: [
@@ -228,7 +228,7 @@ export const tiers3 = [
     description: "Elevate your online presence with our comprehensive marketing and SEO services.",
     price: "Let’s talk",
     yearlyPrice: "Let’s talk",
-    priceDetails: "Per Website pricing",
+    priceDetails: "Per Website Pricing",
     linkText: "Get A Quote",
     linkSubtext: "Respond within 12 hrs max",
     features: [
