@@ -7,7 +7,7 @@ const CalendlyButton = ({ className, children }) => {
   useEffect(() => {
     if (window.Calendly) {
       window.Calendly.initBadgeWidget({
-        url: 'https://calendly.com/gtl-official',
+        url: 'https://calendly.com/gtl-official/30min',
         text: 'Book an Appointment',
         color: '#000000',
         textColor: '#ffffff',
