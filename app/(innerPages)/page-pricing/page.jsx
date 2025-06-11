@@ -9,7 +9,7 @@ import Cta from "@/components/homes/home-3/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
   title:
-    "Pricing | Transparent & Scalable Packages – GTL Web Solutions",
+    "Pricing || Transparent & Scalable Packages – GTL Web Solutions",
   description:
     "GTL - Find the right package for your digital project. From startups to enterprises, Galactic Technologies offers transparent, scalable pricing for web and app development services.",
 };
