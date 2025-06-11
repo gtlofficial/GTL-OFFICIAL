@@ -5,9 +5,9 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import Terms from "@/components/otherPages/Terms";
 export const metadata = {
   title:
-    "Terms || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Terms & Conditions || GTL Web Solutions",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Review the terms and conditions for using GTL Web Solutions. Understand our service policies, user responsibilities, and legal guidelines in detail.",
 };
 export default function TermsPage() {
   return (
