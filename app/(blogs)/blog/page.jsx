@@ -5,9 +5,9 @@ import Newsletter from "@/components/blog/Newsletter";
 import Blogs1 from "@/components/blog/Blogs1";
 export const metadata = {
   title:
-    "Blog 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GTL Blog | Shopify Tips, Web Development & Insights",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Stay updated with expert insights from GTL Web Solutions. Explore tips on Shopify, web design, performance, and eCommerce strategies to grow your online brand.",
 };
 export default function BlogPage1() {
   return (
