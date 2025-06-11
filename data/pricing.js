@@ -182,9 +182,9 @@ export const tiers3 = [
   {
     title: "Store Management",
     description: "With prime focus on Shopify We offer following store management services",
-    price: "$19 USD",
-    yearlyPrice: "$99 USD",
-    priceDetails: "Seat per month",
+    price: "$360 USD",
+    yearlyPrice: "$330 USD",
+    priceDetails: "Per month",
     linkText: "Get A Quote",
     linkSubtext: "No credit card required",
     features: [
@@ -202,7 +202,7 @@ export const tiers3 = [
   {
     title: "Complete Development",
     description: "So we offer complete store development service as well as Complete website developement from scratch.",
-    price: "$1500 USD",
+    price: "$2800 USD",
     yearlyPrice: "$32 USD",
     priceDetails: "Seat cost per Year",
     linkText: "Get A Quote",
@@ -229,7 +229,7 @@ export const tiers3 = [
     yearlyPrice: "Let’s talk",
     priceDetails: "Per‑seat or per‑tool pricing",
     linkText: "Get A Quote",
-    linkSubtext: "Respond within 24 hrs max",
+    linkSubtext: "Respond within 12 hrs max",
     features: [
       "SEO Audit",
       "Keyword Research",
