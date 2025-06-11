@@ -8,7 +8,7 @@ import Cta from "@/components/homes/home-3/Cta";
 import Portfolio from "@/components/innerpages/Portfolio";
 export const metadata = {
   title:
-    "Our Work | Projects by GTL Web Solutions",
+    "Our Work || Projects by GTL Web Solutions",
   description:
     "GTL - Discover our portfolio of successfully delivered websites, apps, and digital solutions. GTL Web Solutions brings creativity and performance to every project.",
 };
