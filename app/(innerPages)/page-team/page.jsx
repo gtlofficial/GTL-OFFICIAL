@@ -6,9 +6,9 @@ import Faq from "@/components/innerpages/Faq";
 import Team from "@/components/innerpages/Team";
 export const metadata = {
   title:
-    "Team || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Terms & Conditions || GTL Web Solutions.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Read the terms and conditions for using GTL Web Solutions’ website and services. Understand your rights, responsibilities, and our policies in detail.",
 };
 export default function TeamPage() {
   return (
