@@ -5,9 +5,9 @@ import BlogDetails1 from "@/components/blog/BlogDetails1";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
-    "Blog Details || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Details | Insights by GTL Web Solutions.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Dive deeper into expert articles from GTL Web Solutions. Get detailed insights on Shopify, web development, performance optimization, and digital strategy.",
 };
 export default async function BlogDetailsPage1(props) {
   const params = await props.params;
