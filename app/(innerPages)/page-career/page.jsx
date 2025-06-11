@@ -9,9 +9,9 @@ import Brands from "@/components/innerpages/Brands";
 import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
-    "Career || GTL - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Careers at GTL Web Solutions || Join Our Team.",
   description:
-    "GTL - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Explore exciting career opportunities at GTL Web Solutions. Join our expert team of developers and creatives building cutting-edge Shopify and web solutions.",
 };
 export default function CareerPage() {
   return (
