@@ -9,7 +9,7 @@ import Cta from "@/components/homes/home-3/Cta";
 import Brands2 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Features | What Sets GTL Web Solutions Apart",
+    "Features || What Sets GTL Web Solutions Apart",
   description:
     "Discover the key features that make GTL Web Solutions your go-to Shopify and web development partner. From performance to support, see what makes us different.",
 };
