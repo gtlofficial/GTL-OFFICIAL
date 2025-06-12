@@ -10,7 +10,7 @@ export default function Footer2() {
     <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
       <div className="footer-outer p-4 lg:p-6 xl:p-8 dark:bg-gray-900 dark:text-white">
         <div className="container max-w-100">
-          <div className="footer-inner vstack gap-1">
+          <div className="footer-inner vstack gap-4">
             <div className="uc-footer-widgets panel">
               <div className="row child-cols-6 md:child-cols col-match g-4">
                 <div className="col-12 lg:col-3">
