@@ -75,7 +75,7 @@ export default function Footer2() {
                 ))}
               </div>
             </div>
-            <div className="uc-footer-bottom panel md:hstack sm:vstack justify-between items-center pt-2 lg:pt-4 border-top dark:text-white">
+            <div className="uc-footer-bottom panel hstack justify-between items-center pt-2 lg:pt-4 border-top dark:text-white">
               <div className="hstack justify-start items-center gap-1 lg:gap-2">
                 <p className="opacity-60">
                   GTL © {new Date().getFullYear()}, All rights reserved.
