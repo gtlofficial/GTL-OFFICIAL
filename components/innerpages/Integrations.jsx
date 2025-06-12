@@ -62,7 +62,7 @@ export default function Integrations() {
                       <div className="vstack gap-3">
                         <div className="hstack justify-between items-center">
                           <div className="vstack">
-                            <h5 className="h5 m-0 text-dark">
+                            <h5 className="h5 m-0 text-dark dark:text-white">
                               {integration.name}
                             </h5>
                             <span className="fs-7 opacity-70 dark:opacity-80">
