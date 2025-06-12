@@ -74,10 +74,11 @@ export default function Pricing() {
                             <span className="fs-6 fw-bold dark:text-white">
                               {tier.title === "Essentials"
                                 ? "Key features:"
-                                : `Services Include ${
+                                : `Services Include: ${
                                     tier.title === "Business"
-                                      ? "Essentials"                                      
-                                  }, :`}
+                                      ? "Essentials"
+                                      : "Business"
+                                  }, plus:`}
                             </span>
                             {tier.features.map((feature, idx) => (
                               <div key={idx} className="hstack gap-1 fs-7">
