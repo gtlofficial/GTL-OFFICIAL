@@ -19,7 +19,7 @@ export default function Footer2() {
                       <Link href={`/`}>
                         <img
                           className=" text-primary"
-                          alt="GTL"
+                          alt="GTL web solutions"
                           src="/assets/images/common/logo-dark.svg"
                         />
                       </Link>
@@ -47,23 +47,11 @@ export default function Footer2() {
                       </a>
                     </div>
                   </div>
-                </div>
-                
-                <div className="col-12 lg:col-3">
-                  <div className="panel vstack items-start gap-1">
-{/*                     <p className="opacity-80">
-                     GTL Web Solutions is a leading IT company founded in 2015, offering custom website, app, theme, and full-stack development services to help your business grow online. To empower businesses and startups by turning ideas into reality with innovative, efficient, and future-ready digital solutions.
-                    </p> */}
-                    <CalendlyButton
-                className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
-              >
-                Book An Appointment
-              </CalendlyButton>
-                  </div>
-                </div>
+                </div>                
+              
                 
                 {footerLinks.map((section, index) => (
-                  <div key={index} className="col-6 md:col-3 lg:col-2">
+                  <div key={index} className="col-6 md:col-3 lg:col-3">
                     <ul className="nav-y gap-1 fw-medium">
                       {section.links.map((link, i) => (
                         <li key={i}>
