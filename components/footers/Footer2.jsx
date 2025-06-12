@@ -8,7 +8,7 @@ import { footerLinks, socialLinks } from "@/data/footer";
 export default function Footer2() {
   return (
     <footer id="uc-footer" className="uc-footer panel overflow-hidden uc-dark">
-      <div className="footer-outer p-4 lg:p-6 xl:p-8 dark:bg-gray-900 dark:text-white">
+      <div className="footer-outer p-2 lg:p-6 xl:p-6 dark:bg-gray-900 dark:text-white">
         <div className="container max-w-100">
           <div className="footer-inner vstack gap-4">
             <div className="uc-footer-widgets panel">
@@ -75,7 +75,7 @@ export default function Footer2() {
                 ))}
               </div>
             </div>
-            <div className="uc-footer-bottom panel hstack justify-between items-center pt-4 lg:pt-6 border-top dark:text-white">
+            <div className="uc-footer-bottom panel md:hstack sm:vstack justify-between items-center pt-2 lg:pt-4 border-top dark:text-white">
               <div className="hstack justify-start items-center gap-1 lg:gap-2">
                 <p className="opacity-60">
                   GTL © {new Date().getFullYear()}, All rights reserved.
