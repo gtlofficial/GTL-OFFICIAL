@@ -24,7 +24,7 @@ export default function Footer2() {
                         />
                       </Link>
                     </div>
-                    <div className="hstack items-start gap-1">
+{/*                     <div className="hstack items-start gap-1">
                       <a href="#">
                         <Image
                           className="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150"
@@ -45,7 +45,7 @@ export default function Footer2() {
                           height="40"
                         />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 
