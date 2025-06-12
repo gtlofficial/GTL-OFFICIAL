@@ -74,10 +74,9 @@ export default function Pricing() {
                             <span className="fs-6 fw-bold dark:text-white">
                               {tier.title === "Essentials"
                                 ? "Key features:"
-                                : `Everything in ${
+                                : `Services Include ${
                                     tier.title === "Business"
-                                      ? "Essentials"
-                                      : ""
+                                      ? "Essentials"                                      
                                   }, :`}
                             </span>
                             {tier.features.map((feature, idx) => (
