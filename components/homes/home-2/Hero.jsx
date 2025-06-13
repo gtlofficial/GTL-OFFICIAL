@@ -196,7 +196,7 @@ export default function Hero() {
                         />
                       </div>
                       <span className="fs-7 sm:fs-6 fw-medium opacity-60">
-                        With Over 3000+ Shopify Stores Sucessfully Completed & Over /800+ reviews across all platforms
+                        With Over 3000+ Shopify Stores Sucessfully Completed & Over 800+ reviews across all platforms
                       </span>
                     </div>
                   </div>
