@@ -142,13 +142,13 @@ website: 'https://lavaporwholesale.com/'	,
 
   { id: 24, 
     title: 'Dansimon', 
-    category: 'Government', 
+    category: 'Shopify', 
 	website: 'https://lavaporwholesale.com/',
     image: '/assets/images/filter-gallery/img-04.png' 
 },
   { id: 25, 
     title: 'Rev up', 
-    category: 'Government', 
+    category: 'Shopify', 
 	website: 'https://lavaporwholesale.com/',
     image: '/assets/images/filter-gallery/img-05.png' 
 },
