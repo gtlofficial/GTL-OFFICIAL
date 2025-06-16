@@ -1,4 +1,4 @@
-import Header1 from "@/components/headers/Header1";
+import Header1 from "@/components/headers/Header6";
 import Features from "@/components/homes/home-1/Features";
 import Hero from "@/components/homes/home-2/Hero";
 import Integretion from "@/components/homes/home-1/Integretion";
