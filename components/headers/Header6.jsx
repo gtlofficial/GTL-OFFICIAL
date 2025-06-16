@@ -90,7 +90,7 @@ export default function Header6({ staticPosition = false }) {
                         alt="Lexend"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-light.svg"
+                        src="/assets/images/common/logo-dark.svg"
                       />
                     </Link>
                   </div>
