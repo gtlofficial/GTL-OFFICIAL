@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import ModalVideo from "../common/ModalVideo";
+import CalendlyButton from "./component/CalendlyButton";
 
 export default function Header6({ staticPosition = false }) {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -34,9 +35,9 @@ export default function Header6({ staticPosition = false }) {
     if (!header || menuItems.length === 0) return;
 
     const handleMouseEnter = () =>
-      header.classList.remove("uc-navbar-transparent");
+      header.classList.remove("uc-navbar-transparent-none");
     const handleMouseLeave = () =>
-      header.classList.add("uc-navbar-transparent");
+      header.classList.add("uc-navbar-transparent-none");
 
     menuItems.forEach((item) => {
       item.addEventListener("mouseenter", handleMouseEnter);
@@ -59,8 +60,8 @@ export default function Header6({ staticPosition = false }) {
         data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
       >
         <nav
-          className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 uc-navbar-transparent  ${
-            scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
+          className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 uc-navbar-transparent-none  ${
+            scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent-none"
           } ${staticPosition ? "position-static" : ""}`}
           data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
           style={{ transform: "translateY(0px)", opacity: 1 }}
@@ -80,14 +81,14 @@ export default function Header6({ staticPosition = false }) {
                     >
                       <Image
                         className="dark:d-none"
-                        alt="Lexend"
+                        alt="GTL Web Solutions"
                         width="128"
                         height="34"
-                        src="/assets/images/common/logo-dark.svg"
+                        src="/assets/images/common/logo-light.svg"
                       />
                       <Image
                         className="d-none dark:d-block"
-                        alt="Lexend"
+                        alt="GTL Web Solutions"
                         width="128"
                         height="34"
                         src="/assets/images/common/logo-dark.svg"
@@ -97,7 +98,7 @@ export default function Header6({ staticPosition = false }) {
                   <ul className="uc-navbar-nav gap-3 d-none lg:d-flex ltr:ms-2 rtl:me-2">
                     <li className="has-dd-menu ">
                       <a href="#" role="button" aria-haspopup="true">
-                        Products{" "}
+                        Services{" "}
                         <span
                           data-uc-navbar-parent-icon=""
                           className="uc-icon uc-navbar-parent-icon"
@@ -129,14 +130,14 @@ export default function Header6({ staticPosition = false }) {
                                 <div className="col-8">
                                   <div className="panel vstack gap-4 py-4">
                                     <div className="panel vstack gap-4">
-                                      <div className="vstack gap-narrow">
+                                      {/* <div className="vstack gap-narrow">
                                         <h5 className="h5 xl:h4 fw-medium m-0">
                                           Lexend's AI Automation Platform
                                         </h5>
                                         <p className="fs-7 text-gray-300">
                                           AI-Powered Automation across 500+ apps
                                         </p>
-                                      </div>
+                                      </div> */}
                                       <div className="row child-cols-6 gx-6">
                                         {featurePageLinks.map(
                                           (section, index) => (
@@ -446,18 +447,17 @@ export default function Header6({ staticPosition = false }) {
                       </div>
                     </li>
                     <li>
-                      <Link href={`/blog-sidebar`}>Insights</Link>
+                      <Link href={`/page-about`}>About</Link>
                     </li>
                     <li>
-                      <Link href={`/page-pricing-2`}>Pricing</Link>
+                      <Link href={`/page-pricing`}>Pricing</Link>
                     </li>
                     <li>
                       <a
-                        href="https://lexend-nextjs-preview.netlify.app/"
-                        target="_blank"
+                        href="page-features"
                       >
                         <i className="icon unicon-cube fw-bold ltr:me-narrow rtl:ms-narrow text-primary dark:text-tertiary"></i>
-                        <span>All Demo Pages</span>
+                        <span>Features</span>
                       </a>
                     </li>
                   </ul>
@@ -465,18 +465,17 @@ export default function Header6({ staticPosition = false }) {
                 <div className="uc-navbar-right">
                   <ul className="nav-x d-none lg:d-flex">
                     <li className="d-none xl:d-inline-flex">
-                      <Link href={`/page-contact-2`}>Contact sales</Link>
+                      <Link href={`/page-contact`}>Contact Us</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href={`/sign-in`}>Log in</Link>
-                    </li>
+                    </li> */}
                   </ul>
-                  <Link
-                    className="btn btn-sm btn-primary text-tertiary dark:bg-tertiary dark:text-primary dark:hover:bg-tertiary fw-bold rounded-pill lg:px-2 text-none hover:contrast-shadow d-none lg:d-inline-flex"
-                    href={`/sign-up`}
-                  >
-                    Sign up
-                  </Link>
+                  <CalendlyButton
+                className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
+              >
+                Book An Appointment
+              </CalendlyButton>
                   <a
                     className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                     onClick={openMobileMenu}
