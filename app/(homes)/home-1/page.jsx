@@ -1,4 +1,4 @@
-import Header6 from "@/components/headers/Header6";
+import Header1 from "@/components/headers/Header6";
 import Features from "@/components/homes/home-1/Features";
 import Hero from "@/components/homes/home-2/Hero";
 import Integretion from "@/components/homes/home-1/Integretion";
@@ -20,7 +20,7 @@ export default function HomePage1() {
   return (
     <>
       <div className="uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl-max dom-ready">
-        <Header6 />
+        <Header1 />
         <div id="wrapper" className="wrap">
           <Hero />
           <Features />
