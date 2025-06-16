@@ -44,7 +44,7 @@ export default function Header4() {
           className="uc-navbar-top bg-primary-700 text-white uc-dark d-none lg:d-block"
         >
           <div className="hide-on-sticky">
-            <div className="container container-expand max-w-1440px">
+            <div className="container max-w-100 px-4">
               <div className="uc-navbar min-h-32px fs-8">
                 <div className="uc-navbar-left">
                   <ul className="uc-navbar-nav gap-2 fw-medium">
