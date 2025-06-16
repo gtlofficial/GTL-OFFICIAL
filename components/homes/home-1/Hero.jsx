@@ -14,6 +14,7 @@ export default function Hero() {
         id="hero_header"
         className="hero-header section panel overflow-hidden"
       >
+        Hello
         <div className="position-absolute top-0 start-0 end-0 h-500px xl:h-screen bg-gray-900" />
         <div
           className="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block uc-dark"
