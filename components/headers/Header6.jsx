@@ -68,7 +68,7 @@ export default function Header6({ staticPosition = false }) {
           <div className="uc-navbar-main" style={{ "--uc-nav-height": "64px" }}>
             <div className="container">
               <div
-                className="uc-navbar min-h-64px text-white dark:text-white position-static"
+                className="uc-navbar min-h-64px text-gray-900 dark:text-white position-static"
                 data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;"
               >
                 <div className="uc-navbar-left">
@@ -113,7 +113,7 @@ export default function Header6({ staticPosition = false }) {
                         </span>
                       </a>
                       <div
-                        className="uc-dropbar uc-dropbar-top p-0 ft-primary text-unset fs-6 fw-normal hide-scrollbar border-top rounded-0 overflow-hidden shadow-xl bg-gray-900 dark:bg-gray-900 uc-navbar-dropdown uc-drop"
+                        className="uc-dropbar uc-dropbar-top p-0 ft-primary text-unset fs-6 fw-normal hide-scrollbar border-top rounded-0 overflow-hidden shadow-xl bg-white dark:bg-gray-900 uc-navbar-dropdown uc-drop"
                         data-uc-drop=" offset: 0; boundary: true; stretch: x; animation: uc-animation-slide-top-small; animate-out: uc-animation-slide-top-small; duration: 150;"
                         style={{
                           overflowX: "auto",
@@ -155,7 +155,7 @@ export default function Header6({ staticPosition = false }) {
                                                   <div key={idx}>
                                                     <Link
                                                       href={`/page-features`}
-                                                      className="hstack items-start gap-2 text-none text-white dark:text-white hover:text-primary dark:hover:text-tertiary"
+                                                      className="hstack items-start gap-2 text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary"
                                                     >
                                                       <span className="icon rounded dark:bg-white">
                                                         <Image
@@ -181,7 +181,7 @@ export default function Header6({ staticPosition = false }) {
                                               <div>
                                                 <Link
                                                   href={`/page-features`}
-                                                  className="ltr:ms-6 rtl:me-6 text-none fs-8 text-white dark:text-white hover:text-primary dark:hover:text-tertiary"
+                                                  className="ltr:ms-6 rtl:me-6 text-none fs-8 text-dark dark:text-white hover:text-primary dark:hover:text-tertiary"
                                                 >
                                                   <span className="border-bottom hover:border-primary duration-150">
                                                     {section.viewAllText}
@@ -197,7 +197,7 @@ export default function Header6({ staticPosition = false }) {
                                   </div>
                                 </div>
                                 <div className="col-4">
-                                  <div className="panel vstack gap-4 p-5 bg-gray-800 dark:bg-gray-800 border-start">
+                                  <div className="panel vstack gap-4 p-5 bg-gray-25 dark:bg-gray-800 border-start">
                                     {sections.map((section, index) => (
                                       <div
                                         key={index}
@@ -221,7 +221,7 @@ export default function Header6({ staticPosition = false }) {
                             </div>
                           </div>
                         </div>
-                        <div className="uc-dropbar-footer py-2 xl:py-3 border-top bg-gray-900 text-white dark:bg-gray-900 dark:text-white">
+                        <div className="uc-dropbar-footer py-2 xl:py-3 border-top bg-white dark:bg-gray-900 dark:text-white">
                           <div className="container">
                             <ul className="nav-x gap-4 fs-8 fw-medium">
                               <li>
