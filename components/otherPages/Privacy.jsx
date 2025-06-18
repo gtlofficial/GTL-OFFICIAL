@@ -12,7 +12,7 @@ export default function Privacy() {
           </header>
           <div className="page-content panel fs-6 md:fs-5">
             <p>
-              At Galactic Technologies, your privacy is important to us. This Privacy Policy explains how we collect, use, protect, and disclose your information when you visit our website or use our services.
+              At GTL Web Solutions, your privacy is important to us. This Privacy Policy explains how we collect, use, protect, and disclose your information when you visit our website or use our services.
             </p>
             <p>
               By using our website or engaging with our services, you agree to the practices described in this policy.
@@ -70,9 +70,9 @@ export default function Privacy() {
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">10. Contact Us</h3>
             <p>
               For questions about this policy, please contact us:<br />
-              📧 Email: info@gtl.com <br />
-              📞 Phone: 8894030663 <br />
-              🌐 Website: www.galactictechnologies.com
+              📧 Email: info@gtlofficial.com <br />
+              📞 Phone: +91-9418216300 <br />
+              🌐 Website: www.Gtlofficial.com.com
             </p>
           </div>
           <div className="page-footer panel">

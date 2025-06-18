@@ -12,11 +12,11 @@ export default function Terms() {
           </header>
           <div className="page-content panel fs-6 md:fs-5">
             <p>
-              Welcome to Galactic Technologies. These Terms of Service (“Terms”) govern your use of our website and services. By accessing or using our website and engaging with our services, you agree to be bound by these Terms.
+              Welcome to GTL Web Solutions. These Terms of Service (“Terms”) govern your use of our website and services. By accessing or using our website and engaging with our services, you agree to be bound by these Terms.
             </p>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">About Us</h3>
             <p>
-              Galactic Technologies is a digital solutions company offering website development, app development, theme development, frontend & backend services, and more. These terms apply to all users of our website and clients of our services.
+              GTL Web Solutions is a digital solutions company offering website development, app development, theme development, frontend & backend services, and more. These terms apply to all users of our website and clients of our services.
             </p>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
               Use of Our Services
@@ -39,7 +39,7 @@ export default function Terms() {
             </ul>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Intellectual Property</h3>
             <p>
-             All code, designs, and content created by Galactic Technologies during a project will remain our intellectual property until full payment is received. Upon full payment, ownership is transferred to the client unless otherwise agreed in writing
+             All code, designs, and content created by GTL Web Solutions during a project will remain our intellectual property until full payment is received. Upon full payment, ownership is transferred to the client unless otherwise agreed in writing
             </p>
             <p>
               We retain the right to showcase work for portfolio and marketing purposes unless a non-disclosure agreement is in place.
@@ -50,7 +50,7 @@ export default function Terms() {
             </p>
              <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Limitation of Liability</h3>
             <p>
-              To the fullest extent permitted by law, Galactic Technologies will not be liable for any indirect, incidental, special, or consequential damages arising out of or relating to your use of our services.
+              To the fullest extent permitted by law, GTL Web Solutions will not be liable for any indirect, incidental, special, or consequential damages arising out of or relating to your use of our services.
             </p>
              <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">Termination</h3>
             <p>
@@ -65,12 +65,12 @@ export default function Terms() {
               If you have any questions about these Terms, please contact us at:
             </p>
             <ul>
-              <li>📧 Email: gtl@info.com</li>
-              <li>📞 Phone: 8894030663</li>
-              <li>🌐 Website: www.galactictechnologies.com</li>
+              <li>📧 Email: info@gtlofficial.com</li>
+              <li>📞 Phone: +91-9418216300</li>
+              <li>🌐 Website: www.gtlofficial.com.com</li>
             </ul>
             <p>
-              Thank you for choosing Galactic Technologies. We look forward to building something great together.
+              Thank you for choosing GTL Web Solutions. We look forward to building something great together.
             </p>
           </div>
           <div className="page-footer panel">

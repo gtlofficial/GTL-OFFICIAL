@@ -10,9 +10,9 @@ import PricingCompare from "@/components/innerpages/PricingCompare";
 import React from "react";
 export const metadata = {
   title:
-    "Pricing 02 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Pricing || Transparent & Scalable Packages – GTL Web Solutions",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "GTL - Find the right package for your digital project. From startups to enterprises, Galactic Technologies offers transparent, scalable pricing for web and app development services.",
 };
 export default function page() {
   return (

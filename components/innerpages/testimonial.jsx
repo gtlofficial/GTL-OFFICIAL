@@ -1,4 +1,4 @@
-import { testimonials3 } from "@/data/testimonials";
+import { testimonialslist } from "@/data/testimonials-list";
 import React from "react";
 import Image from "next/image";
 
@@ -9,7 +9,7 @@ export default function Feedback() {
       className="clients-feedbacks section panel overflow-hidden dark:bg-gray-800 dark:text-white"
     >
       <div className="section-outer panel py-6 xl:py-9">
-        <div className="container max-w-xl">
+        <div className="container max-w-100">
           <div className="section-inner panel">
             <div
               className="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8"
@@ -22,7 +22,7 @@ export default function Feedback() {
                 className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 justify-center col-match g-2 lg:g-3"
                 data-uc-grid=""
               >
-                {testimonials3.map((testimonial, index) => (
+                {testimonialslist.map((testimonial, index) => (
                   <div key={index}>
                     <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 border">
                       <div className="panel vstack items-start gap-2">
@@ -43,13 +43,13 @@ export default function Feedback() {
                         </p>
                       </div>
                       <div className="panel hstack gap-2 mt-2 lg:mt-4">
-                        <Image
+                        {/* <Image
                           className="w-40px rounded-circle"
                           src={testimonial.avatarImgSrc}
                           width={150}
                           height={150}
                           alt={testimonial.avatarImgAlt}
-                        />
+                        /> */}
                         <div className="panel vstack items-start gap-0">
                           <h6 className="h6 m-0">{testimonial.name}</h6>
                           <span className="fs-7 opacity-70">
@@ -61,13 +61,6 @@ export default function Feedback() {
                   </div>
                 ))}
               </div>
-              <a
-                href="/testimonial"
-                className="uc-link fw-bold d-inline-flex items-center gap-narrow"
-              >
-                <span>See all feedbacks</span>
-                <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-              </a>
             </div>
           </div>
         </div>

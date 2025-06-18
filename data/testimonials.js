@@ -6,13 +6,13 @@ export const testimonials = [
     imgSrc: "/assets/images/portrait/01.jpg",
   },
   {
-    quote: `“Great professional and very attentive, every detail I asked for he corrected with attention, Rahul has a lot of experience in design and coding, solving my problem with the product page, I am totally satisfied with the service, he made sure to solve all my problems with the product page. He ended my service only after solving everything without pressure.”`,
+    quote: `“Great professional and very attentive, every detail I asked for he corrected with attention, Ritesh has a lot of experience in design and coding, solving my problem with the product page, I am totally satisfied with the service, he made sure to solve all my problems with the product page. He ended my service only after solving everything without pressure.”`,
     name: "ClosetFy",
     position: "Client Success Manager",
     imgSrc: "/assets/images/portrait/02.jpg",
   },
   {
-    quote: `“Working with Rahul was an absolute pleasure. I found his attention to detail and thoroughness in his work to be commendable. Not only did he consistently deliver high-quality results, but he also demonstrated a strong commitment to ensuring my satisfaction throughout the project.”`,
+    quote: `“Working with Ritesh was an absolute pleasure. I found his attention to detail and thoroughness in his work to be commendable. Not only did he consistently deliver high-quality results, but he also demonstrated a strong commitment to ensuring my satisfaction throughout the project.”`,
     name: "MYOBFASHION.COM",
     position: "Director of MYOBFASHION.COM",
     imgSrc: "/assets/images/portrait/03.jpg",
@@ -157,7 +157,7 @@ export const testimonials3 = [
   {
     brandImgSrc: "/assets/images/brands/brand-02.svg",
     brandImgAlt: "Brand",
-    text: "“Great professional and very attentive, every detail I asked for he corrected with attention, Rahul has a lot of experience in design and coding, solving my problem with the product page, I am totally satisfied with the service, he made sure to solve all my problems with the product page. He ended my service only after solving everything without pressure.”",
+    text: "“Great professional and very attentive, every detail I asked for he corrected with attention, Ritesh has a lot of experience in design and coding, solving my problem with the product page, I am totally satisfied with the service, he made sure to solve all my problems with the product page. He ended my service only after solving everything without pressure.”",
     avatarImgSrc: "/assets/images/avatars/04.png",
     avatarImgAlt: "ClosetFy",
     name: "ClosetFy",
@@ -166,7 +166,7 @@ export const testimonials3 = [
   {
     brandImgSrc: "/assets/images/brands/brand-03.svg",
     brandImgAlt: "Brand",
-    text: "“Rahul does a great job and I was really happy with the outcome of this site. He fixed complicated broken code that a previous developer had added and has been great about post project support. I’d definitely use Rahul for future work.”",
+    text: "“Ritesh does a great job and I was really happy with the outcome of this site. He fixed complicated broken code that a previous developer had added and has been great about post project support. I’d definitely use Ritesh for future work.”",
     avatarImgSrc: "/assets/images/avatars/03.png",
     avatarImgAlt: "Ancient Neon",
     name: "Ancient Neon",
