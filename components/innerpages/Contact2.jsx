@@ -96,8 +96,8 @@ export default function Contact2() {
                   Send message
                 </button>
                 <p className="text-center">
-                  Or drop us a message via
-                  <a className="uc-link" href="mailto:hello@lexend.co">
+                  Or drop us a message via&nbsp;
+                  <a className="uc-link" href="mailto:info@gtlofficial.com">
                     email
                   </a>
                   .

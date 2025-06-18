@@ -128,12 +128,12 @@ export default function Contact1() {
                       className="btn btn-primary btn-md text-white mt-2"
                       type="submit"
                     >
-                      Send message
+                      Send message 
                     </button>
                     <p className="text-center">
-                      Or drop us a message via
-                      <a className="uc-link" href="mailto:hello@lexend.co">
-                        email
+                      Or drop us a message via&nbsp;
+                      <a className="uc-link" href="mailto:info@gtlofficial.com">
+                         email
                       </a>
                       .
                     </p>

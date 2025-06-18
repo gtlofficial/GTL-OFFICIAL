@@ -392,7 +392,7 @@ export default function Header6({ staticPosition = false }) {
                                           <a href="#">Resources</a>
                                         </li>
                                         <li>
-                                          <Link href={`/blog-sidebar`}>
+                                          <Link href={`/blog`}>
                                             Blog
                                           </Link>
                                         </li>

@@ -5,9 +5,9 @@ export const panels = [
     darkIcon: "/assets/images/template/icon-location-dark.svg",
     altText: "location-icon",
     title: "Visit us",
-    description: "Don Valley, Toronto, CA",
+    description: "Dharamshala, Himachal Pradesh, India",
     linkText: "View on maps",
-    linkUrl: "#",
+    linkUrl: "https://maps.app.goo.gl/6da7H4KgQpQavVga9",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const panels = [
     title: "Via chat",
     description: "Get instant answers.",
     linkText: "Let's chat",
-    linkUrl: "#",
+    linkUrl: "https://wa.me/+919418216300",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const panels = [
     title: "Report Issue",
     description: "Get priority support.",
     linkText: "Send report",
-    linkUrl: "#",
+    linkUrl: "mailto:info@gtlofficial.com",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const panels = [
     title: "Our community",
     description: "Connect with users.",
     linkText: "Join us now",
-    linkUrl: "#",
+    linkUrl: "https://community.shopify.com/c/user/viewprofilepage/user-id/126620",
   },
 ];
 
@@ -48,9 +48,9 @@ export const horizontalPanels = [
     darkIcon: "/assets/images/template/icon-location-dark.svg",
     altText: "location-icon",
     title: "Our office",
-    description: "Don Valley, Toronto",
+    description: "Dharamshala, Himachal Pradesh, India",
     linkText: "Visit us",
-    linkUrl: "#",
+    linkUrl: "https://maps.app.goo.gl/6da7H4KgQpQavVga9",
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ export const horizontalPanels = [
     title: "Via chat",
     description: "Get instant answers.",
     linkText: "Let's chat",
-    linkUrl: "#",
+    linkUrl: "https://wa.me/+919418216300",
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const horizontalPanels = [
     title: "Report Issue",
     description: "Get priority support.",
     linkText: "Send report",
-    linkUrl: "#",
+    linkUrl: "mailto:info@gtlofficial.com",
   },
   {
     id: 4,
@@ -80,6 +80,6 @@ export const horizontalPanels = [
     title: "Our community",
     description: "Connect with users.",
     linkText: "Join us now",
-    linkUrl: "#",
+    linkUrl: "https://community.shopify.com/c/user/viewprofilepage/user-id/126620",
   },
 ];
