@@ -3,7 +3,7 @@ import Footer2 from "@/components/footers/Footer2";
 import Testimonial from "@/components/innerpages/testimonial"; 
 export const metadata = {
   title:
-    "Feedback || GTL Web Solutions – Innovators in Digital Development",
+    "Testimonial || GTL Web Solutions – Innovators in Digital Development",
   description:
     "GTL - Learn about GTL Web Solutions, founded by Ritesh Dhiman in 2013, dedicated to building powerful digital solutions that drive innovation and growth.",
 };
