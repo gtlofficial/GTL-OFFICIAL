@@ -1,8 +1,24 @@
+"use client";
+
 import { testimonialslist } from "@/data/testimonials-list";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 export default function Feedback() {
+  const INITIAL_COUNT = 12;
+  const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
+
+  const handleLoadMore = () => {
+    setVisibleCount((prevCount) => prevCount + 12);
+  };
+
+  const handleShowLess = () => {
+    setVisibleCount(INITIAL_COUNT);
+  };
+
+  const hasMore = visibleCount < testimonialslist.length;
+  const hasExtraShown = visibleCount > INITIAL_COUNT;
+
   return (
     <div
       id="clients_feedbacks"
@@ -18,11 +34,12 @@ export default function Feedback() {
               <h2 className="h4 sm:h3 lg:h2 m-0 text-center">
                 Some clients feedbacks
               </h2>
+
               <div
                 className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 justify-center col-match g-2 lg:g-3"
                 data-uc-grid=""
               >
-                {testimonialslist.map((testimonial, index) => (
+                {testimonialslist.slice(0, visibleCount).map((testimonial, index) => (
                   <div key={index}>
                     <div className="px-3 sm:px-4 py-4 panel vstack justify-between gap-3 rounded-2 border">
                       <div className="panel vstack items-start gap-2">
@@ -43,13 +60,6 @@ export default function Feedback() {
                         </p>
                       </div>
                       <div className="panel hstack gap-2 mt-2 lg:mt-4">
-                        {/* <Image
-                          className="w-40px rounded-circle"
-                          src={testimonial.avatarImgSrc}
-                          width={150}
-                          height={150}
-                          alt={testimonial.avatarImgAlt}
-                        /> */}
                         <div className="panel vstack items-start gap-0">
                           <h6 className="h6 m-0">{testimonial.name}</h6>
                           <span className="fs-7 opacity-70">
@@ -60,6 +70,26 @@ export default function Feedback() {
                     </div>
                   </div>
                 ))}
+              </div>
+
+              {/* Buttons */}
+              <div className="flex justify-center gap-3 mt-4">
+                {hasMore && (
+                  <button
+                    onClick={handleLoadMore}
+                    className="btn btn-primary"
+                  >
+                    Load More
+                  </button>
+                )}
+                {hasExtraShown && (
+                  <button
+                    onClick={handleShowLess}
+                    className="btn btn-primary"
+                  >
+                    Show Less
+                  </button>
+                )}
               </div>
             </div>
           </div>
