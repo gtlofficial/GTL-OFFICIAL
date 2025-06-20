@@ -112,13 +112,23 @@ export const testimonialslist = [
 
 {
     brandImgSrc: "/assets/images/brands/brand-01.svg",
-    brandImgAlt: "Amour",
+    brandImgAlt: "L Amour Pearls",
     text: "“We were incredibly impressed with the GTL team's work on our Shopify store. They customized our theme to perfectly reflect our brand's unique aesthetic. Their meticulous attention to detail in setting up our products and collections resulted in a user-friendly and visually appealing shopping experience. The team was highly communicative, responsive, and delivered the project within the agreed-upon timeframe. We highly recommend their services to any business looking to elevate their Shopify presence.”",
     avatarImgSrc: "/assets/images/avatars/03.png",
-    avatarImgAlt: "AL'Amour Pearls",
+    avatarImgAlt: "L'Amour Pearls",
     name: "L'Amour Pearls",
     position: "CEO, Co-Founder.",
   },
+  {
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
+    brandImgAlt: "HARLEKINSHOP",
+    text: "“Pleasure to work with Ritesh. he is very talented,  very helpful and knowledgeable when helping us with this project. I would recommend him to anyone needing assistance building a new store or customizing a Shopify store.”",
+    avatarImgSrc: "/assets/images/avatars/03.png",
+    avatarImgAlt: "HARLEKINSHOP",
+    name: "HARLEKINSHOP",
+    position: "CEO, Co-Founder.",
+  },
+  
   {
     brandImgSrc: "/assets/images/brands/brand-01.svg",
     brandImgAlt: "ELVARDI",
@@ -231,6 +241,17 @@ export const testimonialslist = [
     name: "Studio Urbanity",
     position: "CEO, Co-Founder.",
   },
+
+  {
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
+    brandImgAlt: "HARLEKINSHOP",
+    text: "“A great help! All wishes could be implemented quickly.”",
+    avatarImgSrc: "/assets/images/avatars/03.png",
+    avatarImgAlt: "HARLEKINSHOP",
+    name: "HARLEKINSHOP",
+    position: "CEO, Co-Founder.",
+  },
+
   {
     brandImgSrc: "/assets/images/brands/brand-02.svg",
     brandImgAlt: "Sikkersko",
