@@ -1,5 +1,6 @@
 import Header6 from "@/components/headers/Header6";
 import Footer2 from "@/components/footers/Footer2";
+import Cta from "@/components/homes/home-3/Cta";
 import Testimonial from "@/components/innerpages/testimonial"; 
 export const metadata = {
   title:
@@ -14,6 +15,7 @@ export default function TestimonialPage() {
         <Header6 />
         <div id="wrapper" className="wrap">
           <Testimonial />
+          <Cta />
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"
