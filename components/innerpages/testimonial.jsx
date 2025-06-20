@@ -77,7 +77,7 @@ export default function Feedback() {
                 {hasMore && (
                   <button
                     onClick={handleLoadMore}
-                    className="btn btn-primary"
+                    className="btn btn-primary mx-2"
                   >
                     Load More
                   </button>
@@ -85,7 +85,7 @@ export default function Feedback() {
                 {hasExtraShown && (
                   <button
                     onClick={handleShowLess}
-                    className="btn btn-primary"
+                    className="btn btn-primary mx-2"
                   >
                     Show Less
                   </button>
