@@ -14,7 +14,7 @@ export default function Pricing2() {
                 <span className="fs-7 fw-medium py-narrow px-2 border rounded-pill text-primary dark:text-tertiary">
                   Pricing
                 </span>{" "}
-                <h2 className="title h3 lg:h2 xl:h1 m-0">
+                <h2 className="title h4 lg:h3 xl:h2 m-0">
                   Simple,{" "}
                   <span className="px-1 bg-tertiary text-primary">
                     scalable pricing

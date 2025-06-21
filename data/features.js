@@ -154,39 +154,39 @@ export const features3 = [
 export const features4 = [
   {
     icon: "unicon-document",
-    title: "Proposals",
+    title: "Project Scope",
     description:
-      "Share Tools in minutes with pre-built, customizable templates.",
+      "Before any work begins, we define the full scope of your project — outlining objectives, deliverables, timelines, and technical requirements. This ensures full transparency and alignment between your team and ours.",
   },
   {
     icon: "unicon-model",
-    title: "Quotes",
+    title: "Conceptualization",
     description:
-      "Find out in real time when they’re opened, viewed and signed.",
+      "Every successful project begins with a clear concept. During this phase, we define goals, understand user needs, and explore creative directions — ensuring every decision moving forward is purposeful and aligned with your vision.",
   },
   {
     icon: "unicon-task-approved",
-    title: "Contracts",
+    title: "Mock-Ups & Prototypes",
     description:
-      "Use our native CRM integrations to pull customer data into your Tools fast.",
+      "Our mock-ups and interactive prototypes help you visualize the final product before development begins. This approach saves time, reduces revisions, and ensures that what we build aligns perfectly with your goals.",
   },
   {
     icon: "unicon-touch-interaction",
-    title: "eSignatures",
+    title: "Design & Development",
     description:
-      "Keep your data secure with our legally-binding e-Signature software.",
+      "We combine stunning visual design with clean, scalable development to bring your ideas to life. Whether it's a simple landing page or a complex web application, we ensure every detail functions flawlessly across all devices and platforms.",
   },
   {
     icon: "unicon-sub-volume",
-    title: "Forms",
+    title: "Quality Assurance & Testing",
     description:
-      "Share via direct link or by embedding them on your website, no coding necessary.",
+      "We follow a meticulous quality assurance process to ensure your project works exactly as intended—across all devices, browsers, and user scenarios. From usability to performance, we test it all.",
   },
   {
     icon: "unicon-currency",
-    title: "Payments",
+    title: "Project Completion",
     description:
-      "Collect them instantly right from your contract, while increasing your close rate by 36%.",
+      "At GTL Official, project completion means more than ticking boxes. It’s about delivering a fully realized solution that performs, engages, and reflects your brand’s full potential.",
   },
 ];
 

@@ -1,9 +1,6 @@
 import Header6 from "@/components/headers/Header6";
 
-import Footer2 from "@/components/footers/Footer2";
-
-import Faq from "@/components/homes/home-2/Faq";
-import Testimonials from "@/components/homes/home-3/Testimonials";
+import Footer2 from "@/components/footers/Footer2"; 
 import Brands from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
 import Integrations from "@/components/innerpages/Integrations";
@@ -21,8 +18,8 @@ export default function IntegrationPage() {
         <div id="wrapper" className="wrap">
           <Integrations />
           {/* <div className="pt-6 xl:pt-9"></div> */}
-          <Faq />
-          <Testimonials />
+         
+          
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"

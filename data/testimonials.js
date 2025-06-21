@@ -17,6 +17,18 @@ export const testimonials = [
     position: "Director of MYOBFASHION.COM",
     imgSrc: "/assets/images/portrait/03.jpg",
   },
+  {
+    quote: `“Ritesh from GTL has done an amazing job on my website. I provided them with my specific requirements, and they delivered exactly what I wanted!. Ritesh is very knowledgable and helpful - would recommend working with him!.”`,
+    name: "Steve's",
+    position: "Director of Steve's Official.",
+    imgSrc: "/assets/images/portrait/steve-Giulia_Filippo.jpg",
+  },
+  {
+    quote: `“I can say that Ritesh and GTL Web Solutions were the best web designers Ive ever worked with. Excellent in every department, especially communication, delivery speed and quality of work, anything I wanted fixing or developing was done in a timely fashion with an excellent looking final product. Well done to the team and especially Ritesh, I wont work with anyone else going forward. Also very fairly priced.”`,
+    name: "Robbie Thompson ",
+    position: "Creative Director at Zach Footwear.",
+    imgSrc: "/assets/images/portrait/Zach.jpg",
+  },
 ];
 export const slidesData = [
   {

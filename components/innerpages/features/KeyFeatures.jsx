@@ -9,15 +9,15 @@ export default function KeyFeatures() {
       className="key-features section panel overflow-hidden bg-gray-900 uc-dark"
     >
       <div className="section-outer panel py-6 xl:py-9 dark:bg-gray-800">
-        <div className="container sm:max-w-md lg:max-w-lg">
+        <div className="container sm:max-w-100 lg:max-w-100">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
               <h2
-                className="title h3 lg:h2 xl:h1 m-0 text-center max-w-550px mx-auto"
+                className="title h4 lg:h3 xl:h2 m-0 text-center max-w-100 mx-auto"
                 data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
               >
-                Review quickly and confidently using
-                <span className="text-primary"> Lexend.</span>
+                Smart Features That Save Time and Drive
+                <span className="text-primary"> Results.</span>
               </h2>
               <div className="panel">
                 <div
