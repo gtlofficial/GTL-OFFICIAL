@@ -1,4 +1,4 @@
-import { services } from "@/data/intigration";
+import { services } from "@/data/services";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
