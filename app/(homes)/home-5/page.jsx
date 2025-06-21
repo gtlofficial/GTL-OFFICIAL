@@ -4,7 +4,7 @@ import Header4 from "@/components/headers/Header4";
 import Blog from "@/components/homes/home-5/Blog";
 import Cta from "@/components/homes/home-5/Cta";
 import Faq from "@/components/homes/home-5/Faq";
-import Features from "@/components/homes/home-5/Features";
+ 
 import Hero from "@/components/homes/home-5/Hero";
 import Howworks from "@/components/homes/home-5/Howworks";
 import Pricing from "@/components/homes/home-5/Pricing";
@@ -50,7 +50,7 @@ export default function HomePage5() {
               </div>
             </div>
           </div>
-          <Features />
+          
           <hr className="w-100 m-0 d-block lg:d-none" />
           <Cta />
           <Howworks />
