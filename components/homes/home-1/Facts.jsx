@@ -22,7 +22,7 @@ export default function Facts() {
                 Our Core Values
               </h2>
               <div
-                className="panel vstack g-2 lg:gap-4"
+                className="panel vstack g-2 gap-4 lg:gap-4"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
                 <div

@@ -1,39 +1,39 @@
 export const timelineData = [
   {
     src: "/assets/images/template/timeline-01.png",
-    alt: "Where the idea come up of Lexend :)",
-    year: "2014",
-    description: "Where the idea come up of Lexend :)",
+    alt: "The Idea Behind GTL Web Solutions Was Born :)",
+    year: "2011",
+    description: "The Idea Behind GTL Web Solutions Was Born :)",
   },
   {
     src: "/assets/images/template/timeline-02.png",
-    alt: "Launched our first business that can be created in minutes, build meaningful relationships.",
-    year: "2015",
+    alt: "From vision to reality — our first physical presence marked the beginning of our expansion..",
+    year: "2012",
     description:
-      "Launched our first business that can be created in minutes, build meaningful relationships.",
+      "From vision to reality — our first physical presence marked the beginning of our expansion..",
   },
-  {
-    src: "/assets/images/template/timeline-03.png",
-    alt: "Opened our new office in Toronto, CA",
-    year: "2016",
-    description: "Opened our new office in Toronto, CA",
-  },
+  // {
+  //   src: "/assets/images/template/timeline-03.png",
+  //   alt: "Opened our new office in Toronto, CA",
+  //   year: "2016",
+  //   description: "Opened our new office in Toronto, CA",
+  // },
   {
     src: "/assets/images/template/timeline-04.png",
-    alt: "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
-    year: "2019",
+    alt: "Team Growth & Service Expansion",
+    year: "2013",
     description:
-      "Moved to Silicon Valley whereas now we can focus on building out to help our employees.",
+      "Team Growth & Service Expansion",
   },
   {
     src: "/assets/images/template/timeline-05.png",
-    alt: "Opened a new office in London, UK.",
-    year: "2020",
-    description: "Opened a new office in London, UK.",
+    alt: "Working with Clients Worldwide",
+    year: "2015",
+    description: "Working with Clients Worldwide",
   },
   {
     src: "/assets/images/template/timeline-06.png",
-    alt: "Top-rated software solution for service suppliers.",
+    alt: "Recognized as a Top-Rated Web Solutions Partner",
     year: "Today",
     description: "Top-rated software solution for service suppliers.",
   },
