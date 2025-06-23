@@ -1,17 +1,18 @@
 export const teamMembers = [
+  
+  {
+    id: 2,
+    name: "Ritesh Dhiman",
+    position: "Founder & CEO",
+    imageSrc: "/assets/images/template/team-10.jpg",
+    altText: "John Zellers",
+  },
   {
     id: 1,
     name: "Rahul Dhiman",
     position: "Founder & CEO",
     imageSrc: "/assets/images/template/team-01.jpg",
     altText: "Mark Zellers",
-  },
-  {
-    id: 2,
-    name: "Ritesh Dhiman",
-    position: "Founder & CEO",
-    imageSrc: "/assets/images/template/team-02.jpg",
-    altText: "John Zellers",
   },
   {
     id: 3,
@@ -48,13 +49,13 @@ export const teamMembers = [
     imageSrc: "/assets/images/template/team-07.jpg",
     altText: "Rohit",
   },
-  {
-    id: 8,
-    name: "Larry",
-    position: "Developer",
-    imageSrc: "/assets/images/template/team-08.jpg",
-    altText: "Larry",
-  },
+  // {
+  //   id: 8,
+  //   name: "Larry",
+  //   position: "Developer",
+  //   imageSrc: "/assets/images/template/team-08.jpg",
+  //   altText: "Larry",
+  // },
 ];
 
 export const teamMembers2 = [
@@ -215,17 +216,17 @@ export const teamMembers4 = [
 
 export const teamMembers5 = [
   {
-    id: 30,
-    imageSrc: "/assets/images/team/01.jpg",
-    altText: "Rahul Dhiman",
-    name: "Rahul Dhiman",
-    position: "Founder & CEO",
-  },
-  {
     id: 31,
     imageSrc: "/assets/images/team/02.jpg",
     altText: "Ritesh Dhiman",
     name: "Ritesh Dhiman",
+    position: "Founder & CEO",
+  },
+  {
+    id: 30,
+    imageSrc: "/assets/images/team/01.jpg",
+    altText: "Rahul Dhiman",
+    name: "Rahul Dhiman",
     position: "Founder & CEO",
   },
   {

@@ -1,4 +1,4 @@
-import { teamMembers5 } from "@/data/team";
+import { teamMembers } from "@/data/team";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -35,7 +35,7 @@ export default function Team() {
                   className="row child-cols-6 sm:child-cols-4 lg:child-cols-3 col-match gx-2 gy-4 xl:gx-4 xl:gy-6"
                   data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
                 >
-                  {teamMembers5.map((member) => (
+                  {teamMembers.map((member) => (
                     <div key={member.id}>
                       <div className="panel vstack gap-2 xl:gap-3">
                         <Image
