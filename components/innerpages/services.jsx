@@ -1,9 +1,9 @@
-import { services } from "@/data/services";
+import { integrations } from "@/data/integrations";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Services() {
+export default function Integrations() {
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div
@@ -56,44 +56,43 @@ export default function Services() {
                 className="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-4 justify-between"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
               >
-                {services.map((services, index) => (
+                {integrations.map((integration, index) => (
                   <div key={index}>
                     <div className="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 border">
                       <div className="vstack gap-3">
                         <div className="hstack justify-between items-center">
                           <div className="vstack">
                             <h5 className="h5 m-0 text-dark dark:text-white">
-                              {services.name}
+                              {integration.name}
                             </h5>
                             <span className="fs-7 opacity-70 dark:opacity-80">
-                              {services.category}
+                              {integration.category}
                             </span>
                           </div>
                           <div className="alt-img">
-                           {services.altTextImage}
+                           {integration.altTextImage}
                             </div>
                           {/*
-                          <Image
-                            className="w-32px lg:w-40px"
-                              src={integration.imageUrl}
-                                width={40}
-                                  height={40}
-                                    alt={integration.imageAlt}
-                                    />
-                                    */}
+<Image
+  className="w-32px lg:w-40px"
+  src={integration.imageUrl}
+  width={40}
+  height={40}
+  alt={integration.imageAlt}
+/>
+*/}
                         </div>
                         <p className="fs-6 opacity-70 dark:opacity-80">
-                          {services.description}
+                          {integration.description}
                         </p>
                       </div>
-                         {services.link && (
-                            <Link
-                                href={services.link || "#"}
-                                className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow">
-                                  <span>Explore</span>
-                                  <i className="icon icon-narrow unicon-arrow-right rtl:rotate-180" />
-                             </Link>
-                            )}
+                      <Link
+                        href={`/page-integrations`}
+                        className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
+                      >
+                        <span>Explore</span>
+                        <i className="icon icon-narrow unicon-arrow-right rtl:rotate-180" />
+                      </Link>
                     </div>
                   </div>
                 ))}
