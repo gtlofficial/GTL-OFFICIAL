@@ -9,7 +9,7 @@ export default function KeyFeatures() {
       className="key-features section panel overflow-hidden bg-gray-900 uc-dark"
     >
       <div className="section-outer panel py-6 xl:py-9 dark:bg-gray-800">
-        <div className="container sm:max-w-100 lg:max-w-100">
+        <div className="container max-w-xl sm:max-w-xl lg:max-w-xl">
           <div className="section-inner panel">
             <div className="panel vstack gap-4 sm:gap-6 xl:gap-8">
               <h2
