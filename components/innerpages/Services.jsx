@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function ourservices() {
+export default function Services() {
   return (
     <div id="hero_header" className="hero-header section panel overflow-hidden">
       <div
@@ -73,27 +73,29 @@ export default function ourservices() {
                            {ourservices.altTextImage}
                             </div>
                           {/*
-<Image
-  className="w-32px lg:w-40px"
-  src={integration.imageUrl}
-  width={40}
-  height={40}
-  alt={integration.imageAlt}
-/>
-*/}
-                        </div>
-                        <p className="fs-6 opacity-70 dark:opacity-80">
+                          <Image
+                            className="w-32px lg:w-40px"
+                              src={integration.imageUrl}
+                                width={40}
+                                  height={40}
+                                    alt={integration.imageAlt}
+                                    />
+                                    */}
+                         </div>
+                          <p className="fs-6 opacity-70 dark:opacity-80">
                           {ourservices.description}
                         </p>
                       </div>
-                      <Link
-                        href={`/our-services`}
-                        className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
-                      >
-                        <span>Explore</span>
-                        <i className="icon icon-narrow unicon-arrow-right rtl:rotate-180" />
-                      </Link>
-                    </div>
+                      {ourservices.link && (
+                          <Link
+                              href={ourservices.link}
+                              className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
+                              >
+                                <span>Explore</span>
+                                <i className="icon icon-narrow unicon-arrow-right rtl:rotate-180" />
+                                </Link>
+                            )}
+                            </div>
                   </div>
                 ))}
               </div>

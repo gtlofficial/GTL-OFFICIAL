@@ -1,4 +1,4 @@
-export const services = [
+export const ourservices = [
   {
     id: 1,
     name: "Web Development",
