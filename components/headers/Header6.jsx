@@ -124,10 +124,10 @@ export default function Header6({ staticPosition = false }) {
                         }}
                       >
                         <div className="uc-dropbar-content">
-                          <div className="container">
+                          <div className="container max-w-100 px-8">
                             <div className="uc-dropbar-inner after-bg">
                               <div className="row gx-5 col-match justify-between">
-                                <div className="col-8">
+                                <div className="col-10">
                                   <div className="panel vstack gap-4 py-4">
                                     <div className="panel vstack gap-4">
                                       {/* <div className="vstack gap-narrow">
@@ -138,14 +138,14 @@ export default function Header6({ staticPosition = false }) {
                                           AI-Powered Automation across 500+ apps
                                         </p>
                                       </div> */}
-                                      <div className="row child-cols-6 gx-6">
+                                      <div className="row child-cols-4 gx-4 g-3">
                                         {featurePageLinks.map(
                                           (section, index) => (
                                             <div
                                               key={index}
-                                              className="vstack gap-3"
+                                              className="vstack gap-1"
                                             >
-                                              <h6 className="h6 m-0">
+                                              <h6 className="h6 m-0 py-2">
                                                 <i
                                                   className={`fs-7 ${section.icon} fw-bold ltr:me-narrow rtl:ms-narrow`}
                                                 ></i>{" "}
@@ -154,8 +154,9 @@ export default function Header6({ staticPosition = false }) {
                                               {section.items.map(
                                                 (item, idx) => (
                                                   <div key={idx}>
+                                                      {item.link && (
                                                     <Link
-                                                      href={`/page-features`}
+                                                      href={item.link}
                                                       className="hstack items-start gap-2 text-none text-dark dark:text-white hover:text-primary dark:hover:text-tertiary"
                                                     >
                                                       <span className="icon rounded dark:bg-white">
@@ -168,6 +169,7 @@ export default function Header6({ staticPosition = false }) {
                                                         />
                                                       </span>
                                                       <div className="panel">
+                                                        
                                                         <span className="fs-7 fw-medium mb-narrow text-inherit">
                                                           {item.title}
                                                         </span>
@@ -176,12 +178,14 @@ export default function Header6({ staticPosition = false }) {
                                                         </p>
                                                       </div>
                                                     </Link>
+                                                     )}
                                                   </div>
                                                 )
                                               )}
                                               <div>
+                                                {section.viewallLink && (
                                                 <Link
-                                                  href={`/page-features`}
+                                                  href={section.viewallLink}
                                                   className="ltr:ms-6 rtl:me-6 text-none fs-8 text-dark dark:text-white hover:text-primary dark:hover:text-tertiary"
                                                 >
                                                   <span className="border-bottom hover:border-primary duration-150">
@@ -189,6 +193,7 @@ export default function Header6({ staticPosition = false }) {
                                                   </span>
                                                   <i className="fs-8 unicon-arrow-up-right fw-bold"></i>
                                                 </Link>
+                                                )}
                                               </div>
                                             </div>
                                           )
@@ -197,7 +202,7 @@ export default function Header6({ staticPosition = false }) {
                                     </div>
                                   </div>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-3">
                                   <div className="panel vstack gap-4 p-5 bg-gray-25 dark:bg-gray-800 border-start">
                                     {sections.map((section, index) => (
                                       <div
@@ -224,7 +229,7 @@ export default function Header6({ staticPosition = false }) {
                         </div>
                         <div className="uc-dropbar-footer py-2 xl:py-3 border-top bg-white dark:bg-gray-900 dark:text-white">
                           <div className="container">
-                            <ul className="nav-x gap-4 fs-8 fw-medium">
+                            {/* <ul className="nav-x gap-4 fs-8 fw-medium">
                               <li>
                                 <a href="#">
                                   <i className="fs-8 unicon-api fw-bold"></i>
@@ -249,7 +254,7 @@ export default function Header6({ staticPosition = false }) {
                                   </span>
                                 </a>
                               </li>
-                            </ul>
+                            </ul> */}
                           </div>
                         </div>
                       </div>
@@ -288,7 +293,7 @@ export default function Header6({ staticPosition = false }) {
                               <div className="row gx-5 col-match justify-between">
                                 <div className="col-8">
                                   <div className="panel vstack gap-4 py-4">
-                                    <div className="vstack gap-narrow flex-none">
+                                    {/* <div className="vstack gap-narrow flex-none">
                                       <h5 className="h5 xl:h4 fw-medium m-0">
                                         Workflow quick-start automation guide
                                       </h5>
@@ -296,7 +301,7 @@ export default function Header6({ staticPosition = false }) {
                                         How Lexend can help you automate your
                                         work
                                       </p>
-                                    </div>
+                                    </div> */}
                                     <div className="row child-cols-4 gx-4 col-match justify-between">
                                       {sections2.map((section, index) => (
                                         <div key={index}>

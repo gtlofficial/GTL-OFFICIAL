@@ -25,12 +25,12 @@ export default function Team() {
                   <div key={index}>
                     <div className="panel vstack gap-2">
                       <Image
-  className="w-100 rounded"
-  src={member.imageSrc}
-  width={400}
-  height={400}
-  alt={member.altText}
-  style={{ filter: 'grayscale(100%)' }}
+                        className="w-100 rounded"
+                        src={member.imageSrc}
+                        width={400}
+                        height={400}
+                        alt={member.altText}
+                        style={{ filter: 'grayscale(100%)' }}
 />
                       <div className="panel vstack items-start gap-0">
                         <h6 className="h6 m-0">{member.name}</h6>
@@ -42,13 +42,13 @@ export default function Team() {
                   </div>
                 ))}
               </div>
-              <Link
+              {/* <Link
                 href={`/page-about`}
                 className="uc-link fw-bold d-inline-flex items-center gap-narrow"
               >
                 <span>More about us</span>
                 <i className="icon icon-1 unicon-arrow-right rtl:rotate-180" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

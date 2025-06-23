@@ -2327,7 +2327,7 @@ header.uc-preview-header .uc-navbar-container.uc-navbar-sticky .uc-navbar-nav li
   position: absolute;
   height: 100%;
   width: 100vw;
-  right: -70vw;
+  right: -75vw;
   top: 0;
   z-index: -1;
 }
@@ -3655,7 +3655,7 @@ progress {
 }
 .row.col-match > * > *,
 .row.col-match > [class*="col-"] > * {
-  flex: 1;
+  /* flex: 1; */
 }
 .row.uc-grid:not(.uc-flex-wrap-top),
 .row.uc-grid > :not(.uc-grid-margin) {
@@ -3808,6 +3808,12 @@ progress {
   flex: 0 0 auto;
   width: 25%;
 }
+.col-2 {
+  --grid-total: 12;
+  --grid-count: 2;
+  flex: 0 0 auto;
+  width: 20%;
+}
 .col-4 {
   --grid-total: 12;
   --grid-count: 4;
@@ -3831,6 +3837,12 @@ progress {
   --grid-count: 8;
   flex: 0 0 auto;
   width: 66.66666667%;
+}
+.col-10 {
+  --grid-total: 12;
+  --grid-count: 10;
+  flex: 0 0 auto;
+  width: 75%;
 }
 .col-12 {
   --grid-total: 12;

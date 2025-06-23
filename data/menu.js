@@ -761,58 +761,180 @@ export const links = [
 
 export const featurePageLinks = [
   {
-    title: "Products",
+    title: "Web Developments",
     icon: "unicon-cube",
     items: [
       {
         icon: "icon-01.svg",
-        title: "Email Template Builder",
-        description: "Design personalized emails that convert",
+        title: "Shopify",
+        description: "Design personalized shopify website",
+        link:"#",
       },
       {
         icon: "icon-02.svg",
-        title: "Landing Page Builder",
+        title: "Squarespace",
         description: "Deliver the right message to the right user",
+        link:"#",
       },
       {
         icon: "icon-03.svg",
-        title: "Reporting & analytics",
+        title: "Node JS",
         description: "Track sales & campaign performance",
+        link:"#",
       },
       {
         icon: "icon-07.svg",
-        title: "Chatbots, Free forever",
+        title: "React JS",
         description: "Track sales & campaign performance",
+        link:"#",
       },
     ],
-    viewAllText: "View all products",
+    viewAllText: "View all Services",
+    viewallLink:"/web-development",
   },
   {
-    title: "Professional Solutions",
+    title: "CRM Development",
     icon: "unicon-gamification",
     items: [
       {
         icon: "icon-04.svg",
-        title: "AI-Powered Tools",
+        title: "NodeJS",
         description: "Say hello to your AI growth assistant",
+        link:"#",
       },
       {
         icon: "icon-05.svg",
-        title: "E-commerce and retail",
+        title: "ReactJS",
         description: "Amplify the conversation across channels",
+        link:"#",
       },
       {
         icon: "icon-06.svg",
-        title: "Large Community",
+        title: "AngularJS",
         description: "Our services offerings",
+        link:"#",
       },
       {
         icon: "icon-08.svg",
-        title: "AI-Powered Automation",
+        title: "Laravel",
         description: "Our services offerings",
+        link:"#",
       },
     ],
-    viewAllText: "View all solutions",
+    viewAllText: "View all Services",
+    viewallLink:"/crm-development",
+  },
+
+  {
+    title: "Custom API Development",
+    icon: "unicon-gamification",
+    items: [
+      {
+        icon: "icon-04.svg",
+        title: "NodeJS",
+        description: "Say hello to your AI growth assistant",
+        link:"#",
+      },
+      {
+        icon: "icon-05.svg",
+        title: "CodeIgniter",
+        description: "Amplify the conversation across channels",
+        link:"#",
+      },
+      {
+        icon: "icon-05.svg",
+        title: "Laravel",
+        description: "Amplify the conversation across channels",
+        link:"#",
+      },
+      
+    ],
+  },
+
+   {
+    title: "Ecommerce Development",
+    icon: "unicon-gamification",
+    items: [
+      {
+        icon: "icon-04.svg",
+        title: "Shopify",
+        description: "Say hello to your AI growth assistant",
+        link:"#",
+      },
+      {
+        icon: "icon-05.svg",
+        title: "WordPress",
+        description: "Amplify the conversation across channels",
+        link:"#",
+      },
+      {
+        icon: "icon-06.svg",
+        title: "Squarespace",
+        description: "Our services offerings",
+        link:"#",
+      },
+      {
+        icon: "icon-08.svg",
+        title: "Wix",
+        description: "Our services offerings",
+        link:"#",
+      },
+    ],
+    viewAllText: "View all Services",
+    viewallLink:"/crm-development",
+  },
+
+   {
+    title: "Mobile App Development",
+    icon: "unicon-gamification",
+    items: [
+      {
+        icon: "icon-04.svg",
+        title: "Android",
+        description: "Say hello to your AI growth assistant",
+        link:"#",
+      },
+      {
+        icon: "icon-05.svg",
+        title: "iOS",
+        description: "Amplify the conversation across channels",
+        link:"#",
+      },
+      {
+        icon: "icon-06.svg",
+        title: "Flutter",
+        description: "Our services offerings",
+        link:"#",
+      },
+      {
+        icon: "icon-08.svg",
+        title: "React Native",
+        description: "Our services offerings",
+        link:"#",
+      },
+    ],
+    viewAllText: "View all Services",
+    viewallLink:"/crm-development",
+  },
+  {
+    title: "Plug-in Development",
+    icon: "unicon-gamification",
+    items: [
+      {
+        icon: "icon-04.svg",
+        title: "Shopify",
+        description: "Say hello to your AI growth assistant",
+        link:"#",
+      },
+      {
+        icon: "icon-05.svg",
+        title: "WordPress",
+        description: "Amplify the conversation across channels",
+        link:"#",
+      },      
+    ],
+    viewAllText: "View all Services",
+    viewallLink:"/crm-development",
   },
 ];
 export const sections = [
@@ -837,68 +959,87 @@ export const sections = [
 ];
 export const sections2 = [
   {
-    title: "Automation",
+    title: "Design & Development",
     icon: "unicon-glyph-square-fill",
     items: [
       {
         icon: "unicon-checkmark",
-        text: "To-Do List",
+        text: "Mobile App Development",
         description:
           "Managing multiple software and tools for different tasks.",
+          link:"#",
       },
       {
         icon: "unicon-chart-pie",
-        text: "Reports",
+        text: "Front-end Development",
         description: "The latest industry reports, updates and info.",
+        link:"#",
       },
       {
         icon: "unicon-increase-level",
-        text: "Spreadsheets",
+        text: "Back-end Development",
         description: "Suite of tools that cover all aspects of your business.",
+        link:"#",
+      },
+      {
+        icon: "unicon-chart-venn-diagram",
+        text: "Web Design and Development",
+        description:
+          "Assign tasks, share files, and communicate with your team.",
+          link:"#",
       },
     ],
   },
   {
-    title: "Teaming",
+    title: "Digital Marketing Services",
     icon: "unicon-glyph-circle-fill",
     items: [
       {
         icon: "unicon-chart-venn-diagram",
-        text: "Collaboration",
+        text: "Search Engine Optimization",
         description:
           "Assign tasks, share files, and communicate with your team.",
+          link:"#",
       },
       {
         icon: "unicon-chat",
-        text: "Chatbots",
+        text: "Search Engine Marketing",
         description:
           "Assign tasks, share files, and communicate with your team.",
+          link:"#",
       },
       {
         icon: "unicon-checkmark",
-        text: "To-Do List",
+        text: "Social Media Marketing",
         description:
           "Managing multiple software and tools for different tasks.",
+          link:"#",
+      },
+      {
+        icon: "unicon-chart-pie",
+        text: "Google Ads",
+        description: "The latest industry reports, updates and info.",
+        link:"#",
       },
     ],
   },
   {
-    title: "Use Case",
+    title: "QA Testing & Support",
     icon: "unicon-glyph-caution",
     items: [
       {
         icon: "unicon-chart-pie",
-        text: "Reports",
+        text: "Cross Browser Testing",
         description: "The latest industry reports, updates and info.",
       },
       {
         icon: "unicon-increase-level",
-        text: "Spreadsheets",
+        text: "Maintenance",
         description: "Suite of tools that cover all aspects of your business.",
       },
-      {
+            {
         icon: "unicon-chart-venn-diagram",
-        text: "Collaboration",
+        text: "Consultation & Support",
         description:
           "Assign tasks, share files, and communicate with your team.",
       },
