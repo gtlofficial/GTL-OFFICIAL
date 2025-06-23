@@ -47,7 +47,7 @@ export default function Hero() {
               data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
             >
               <h1 className="h3 sm:h2 lg:display-7 xl:display-6 m-0">
-                What separates you from others.
+                What separates you from<span class="text-primary"> others.</span>
               </h1>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
                 We focus on helping you to make useful content more accessible

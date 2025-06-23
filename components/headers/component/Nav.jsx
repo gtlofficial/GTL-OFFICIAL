@@ -13,7 +13,7 @@ export default function Nav() {
         <Link href={`/page-about`}>About</Link>
       </li>
       <li>
-        <Link href={`/#`}>Services</Link> 
+        <Link href={`/page-integrations`}>Services</Link> 
       </li>
       <li>
         <Link href={`/page-features`}>Features</Link> 
