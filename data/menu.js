@@ -966,26 +966,26 @@ export const sections2 = [
         icon: "unicon-checkmark",
         text: "Mobile App Development",
         description:
-          "Managing multiple software and tools for different tasks.",
+          "End-to-end mobile app solutions for iOS, Android, and cross-platform development.",
           link:"#",
       },
       {
         icon: "unicon-chart-pie",
         text: "Front-end Development",
-        description: "The latest industry reports, updates and info.",
+        description: "Build fast, responsive, and engaging user interfaces with modern frameworks.",
         link:"#",
       },
       {
         icon: "unicon-increase-level",
         text: "Back-end Development",
-        description: "Suite of tools that cover all aspects of your business.",
+        description: "Secure, scalable backend systems to power your applications and APIs.",
         link:"#",
       },
       {
         icon: "unicon-chart-venn-diagram",
         text: "Web Design and Development",
         description:
-          "Assign tasks, share files, and communicate with your team.",
+          "Custom-designed websites that balance aesthetics, performance, and usability.",
           link:"#",
       },
     ],
@@ -998,27 +998,27 @@ export const sections2 = [
         icon: "unicon-chart-venn-diagram",
         text: "Search Engine Optimization",
         description:
-          "Assign tasks, share files, and communicate with your team.",
+          "Improve your website’s visibility, rankings, and organic traffic through strategic SEO.",
           link:"#",
       },
       {
         icon: "unicon-chat",
         text: "Search Engine Marketing",
         description:
-          "Assign tasks, share files, and communicate with your team.",
+          "Drive targeted traffic with paid search campaigns that deliver measurable ROI.",
           link:"#",
       },
       {
         icon: "unicon-checkmark",
         text: "Social Media Marketing",
         description:
-          "Managing multiple software and tools for different tasks.",
+          "Build your brand, grow your audience, and engage customers across social platforms.",
           link:"#",
       },
       {
         icon: "unicon-chart-pie",
         text: "Google Ads",
-        description: "The latest industry reports, updates and info.",
+        description: "Reach ready-to-convert users with strategic, high-performing Google Ads campaigns.",
         link:"#",
       },
     ],
@@ -1030,18 +1030,18 @@ export const sections2 = [
       {
         icon: "unicon-chart-pie",
         text: "Cross Browser Testing",
-        description: "The latest industry reports, updates and info.",
+        description: "TEnsure a consistent user experience across all major browsers and devices.",
       },
       {
         icon: "unicon-increase-level",
         text: "Maintenance",
-        description: "Suite of tools that cover all aspects of your business.",
+        description: "Ongoing website and app maintenance to keep your platform secure, updated, and running smoothly.",
       },
             {
         icon: "unicon-chart-venn-diagram",
         text: "Consultation & Support",
         description:
-          "Assign tasks, share files, and communicate with your team.",
+          "Expert guidance and technical support to solve challenges and keep your systems on track.",
       },
     ],
   },
