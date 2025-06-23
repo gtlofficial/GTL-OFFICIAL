@@ -3,7 +3,7 @@ import Header6 from "@/components/headers/Header6";
 import Footer2 from "@/components/footers/Footer2"; 
 import Brands from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
-// import Services from "@/components/innerpages/services";
+import Services from "@/components/innerpages/services";
 export const metadata = {
   title:
     "Our Services || Web, App, Theme & Full-Stack Development – GTL Web Solutions",
@@ -16,7 +16,7 @@ export default function IntegrationPage() {
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header6 />
         <div id="wrapper" className="wrap">
-          {/* <Services /> */}
+          <Services />
           {/* <div className="pt-6 xl:pt-9"></div> */}
          
           
