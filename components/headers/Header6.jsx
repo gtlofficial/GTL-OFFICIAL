@@ -67,7 +67,7 @@ export default function Header6({ staticPosition = false }) {
           style={{ transform: "translateY(0px)", opacity: 1 }}
         >
           <div className="uc-navbar-main" style={{ "--uc-nav-height": "64px" }}>
-            <div className="container  max-w-100">
+            <div className="container max-w-100">
               <div
                 className="uc-navbar min-h-64px text-gray-900 dark:text-white position-static"
                 data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;"
@@ -282,9 +282,9 @@ export default function Header6({ staticPosition = false }) {
                         style={{
                           overflowX: "auto",
                           top: 64,
-                          left: "-307.5px",
-                          width: 1903,
-                          maxWidth: 1903,
+                          left: "0",
+                          width: "100vw",
+                          maxWidth: "100vw",
                         }}
                       >
                         <div className="uc-dropbar-content">
