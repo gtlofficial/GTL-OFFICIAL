@@ -3,7 +3,7 @@ import Header6 from "@/components/headers/Header6";
 import Footer2 from "@/components/footers/Footer2"; 
 import Brands from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
-import Services from "@/components/innerpages/Services";
+import Services from "@/components/innerpages/services";
 export const metadata = {
   title:
     "Our Services || Web, App, Theme & Full-Stack Development – GTL Web Solutions",
