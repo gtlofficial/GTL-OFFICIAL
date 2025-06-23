@@ -19,16 +19,24 @@ export default function Faq() {
                   </span>
                   <h2 className="title h3 xl:h2 m-0">FAQs</h2>
                   <p className="desc fs-6 xl:fs-5">
-                    Everything you need to know about the product and billing.
+                    Everything you need to know about the product and services.
                     Can’t find the answer you’re looking for?{" "}
                     <br className="d-none lg:d-block xl:d-none" />
                     Please{" "}
                     <Link
                       className="uc-link border-bottom border-gray-300 dark:text-white text-none"
+                      href="https://wa.me/+919418216300" target="_blank"
+                      style={{ paddingBottom: 2 }}
+                    >
+                      Chat to our friendly team
+                    </Link>
+                     &nbsp;or&nbsp; 
+                    <Link
+                      className="uc-link border-bottom border-gray-300 dark:text-white text-none"
                       href={`/page-contact`}
                       style={{ paddingBottom: 2 }}
                     >
-                      Chat to our friendly team.
+                       Contact Us.
                     </Link>
                   </p>
                 </div>
