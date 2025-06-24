@@ -34,58 +34,65 @@ export const slidesData = [
   {
     rating: 5,
     quote:
-      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Mark Zellers",
-    title: "CEO, Co-Founder.",
+      " partnered with them to optimize website performance, and their expertise worked like magic. Their team was highly responsive and displayed professionalism in achieving outstanding results. They were readily available during their working hours, ensuring a hassle-free and efficient delivery of the project.",
+    name: "Studio Urbanity",
+    title: "Director of Studio Urbanity",
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
   },
   {
     rating: 5,
-    quote:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.",
-    name: "Natalia Larsson",
-    title: "Director of Sales",
+    quote: `“Great professional and very attentive, every detail I asked for he corrected with attention, Ritesh has a lot of experience in design and coding, solving my problem with the product page, I am totally satisfied with the service, he made sure to solve all my problems with the product page. He ended my service only after solving everything without pressure.”`,
+    name: "ClosetFy",
+    title: "Client Success Manager",
+    brandImgSrc: "/assets/images/brands/brand-02.svg",
   },
   {
     rating: 5,
-    quote:
-      "We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation and as we look to create our website and this builder just outstanding!",
-    name: "Sarah Edrissi",
-    title: "Lead Marketing",
+    quote: `“Working with Ritesh was an absolute pleasure. I found his attention to detail and thoroughness in his work to be commendable. Not only did he consistently deliver high-quality results, but he also demonstrated a strong commitment to ensuring my satisfaction throughout the project.”`,
+    name: "MYOBFASHION.COM",
+    title:"Director of MYOBFASHION.COM",
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
   },
   {
     rating: 5,
-    quote:
-      "We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.",
-    name: "Anna Yon",
-    title: "Senior UI/UX Designer",
+    quote: `“Ritesh from GTL has done an amazing job on my website. I provided them with my specific requirements, and they delivered exactly what I wanted!. Ritesh is very knowledgable and helpful - would recommend working with him!.”`,
+    name: "Steve's",
+    title: "Director of Steve's Official.",
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
   },
   // ...add more slide data as needed
 ];
 
 export const reviews = [
   {
-    name: "Mark Zellers",
-    position: "CEO, Co-Founder",
-    feedback:
-      "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    feedback: `“I partnered with them to optimize website performance, and their expertise worked like magic. Their team was highly responsive and displayed professionalism in achieving outstanding results. They were readily available during their working hours, ensuring a hassle-free and efficient delivery of the project.”`,
+    name: "Studio Urbanity",
+    position: "Director of Studio Urbanity.",
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
   },
   {
-    name: "Natalia Larsson",
-    position: "Director of Sales",
-    feedback:
-      "“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”",
+    feedback: `“Great professional and very attentive, every detail I asked for he corrected with attention, Ritesh has a lot of experience in design and coding, solving my problem with the product page, I am totally satisfied with the service, he made sure to solve all my problems with the product page. He ended my service only after solving everything without pressure.”`,
+    name: "ClosetFy",
+    position: "Client Success Manager",
+    brandImgSrc: "/assets/images/brands/brand-02.svg",
   },
   {
-    name: "Sarah Edrissi",
-    position: "Lead Marketing",
-    feedback:
-      "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation and as we look to create our website and this builder just outstanding!”",
+    feedback: `“Working with Ritesh was an absolute pleasure. I found his attention to detail and thoroughness in his work to be commendable. Not only did he consistently deliver high-quality results, but he also demonstrated a strong commitment to ensuring my satisfaction throughout the project.”`,
+    name: "MYOBFASHION.COM",
+    position: "Director of MYOBFASHION.COM",
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
   },
   {
-    name: "Anna Yon",
-    position: "Senior UI/UX Designer",
-    feedback:
-      "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    feedback: `“Ritesh from GTL has done an amazing job on my website. I provided them with my specific requirements, and they delivered exactly what I wanted!. Ritesh is very knowledgable and helpful - would recommend working with him!.”`,
+    name: "Steve's",
+    position: "Director of Steve's Official.",
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
+  },
+  {
+    feedback: `“I can say that Ritesh and GTL Web Solutions were the best web designers Ive ever worked with. Excellent in every department, especially communication, delivery speed and quality of work, anything I wanted fixing or developing was done in a timely fashion with an excellent looking final product. Well done to the team and especially Ritesh, I wont work with anyone else going forward. Also very fairly priced.”`,
+    name: "Robbie Thompson ",
+    position: "Creative Director at Zach Footwear.",
+    brandImgSrc: "/assets/images/brands/brand-01.svg",
   },
 ];
 

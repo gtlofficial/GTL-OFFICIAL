@@ -4,8 +4,7 @@ import Hero from "@/components/homes/home-2/Hero";
 import Services from "@/components/homes/home-1/Services";
 import Facts from "@/components/homes/home-1/Facts";
 import KeyFeatures from "@/components/homes/home-3/KeyFeatures";
-import Pricing from "@/components/common/Pricing";
-import Feedback from "@/components/homes/home-2/Feedback";
+import Testimonials from "@/components/homes/home-1/Testimonials";
 import Timeline from "@/components/homes/home-1/Timeline";
 import Brands3 from "@/components/common/Brands2";
 import Cta from "@/components/homes/home-3/Cta";
@@ -26,10 +25,9 @@ export default function HomePage1() {
           <Features />    
           <Services />    
           <KeyFeatures />
-          <Facts />
-          <Pricing />
+          <Facts /> 
           <Timeline />
-          <Feedback />
+          <Testimonials />
           <div
                       id="clients_brands"
                       className="clients-brands section panel overflow-hidden"

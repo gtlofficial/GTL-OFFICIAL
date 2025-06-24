@@ -421,7 +421,7 @@ export default function Header6({ staticPosition = false }) {
                         </div>
                         <div className="uc-dropbar-footer py-2 xl:py-3 border-top bg-white dark:bg-gray-900 dark:text-white">
                           <div className="container">
-                            <ul className="nav-x gap-4 fs-8 fw-medium">
+                            {/* <ul className="nav-x gap-4 fs-8 fw-medium">
                               <li>
                                 <a href="#">
                                   <i className="fs-8 unicon-api fw-bold"></i>
@@ -446,7 +446,7 @@ export default function Header6({ staticPosition = false }) {
                                   </span>
                                 </a>
                               </li>
-                            </ul>
+                            </ul> */}
                           </div>
                         </div>
                       </div>
