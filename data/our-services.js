@@ -8,7 +8,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-slack.svg",
     altTextImage: "🌐",
     imageAlt: "Web Development",
-    link: "/our-services/web-development",
+    link: "/web-development",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-salesforce.svg",
     altTextImage: "🛒",
     imageAlt: "E-commerce Solutions",
-    link: "/our-services/e-comerce",
+    link: "/e-comerce",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-stripe.svg",
     altTextImage: "🎨",
     imageAlt: "Shopify Theme Development",
-    link: "/our-services/shopif-theme",
+    link: "/shopif-theme",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-paypal.svg",
     altTextImage: "⚙️",
     imageAlt: "Shopify App Development",
-    link: "/our-services/app-development",
+    link: "/app-development",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-hubspot.svg",
     altTextImage: "📱",
     imageAlt: "Mobile App Development",
-    link: "/our-services/mobile-app-development",
+    link: "/mobile-app-development",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-zapier.svg",
     altTextImage: "💡",
     imageAlt: "Frontend Development",
-    link: "/our-services/frontend-development",
+    link: "/frontend-development",
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-zapier.svg",
     altTextImage: "🔧",
     imageAlt: "Backend Development",
-    link: "/our-services/backend-development",
+    link: "/backend-development",
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-zapier.svg",
     altTextImage: "🌍",
     imageAlt: "Website Optimization & SEO",
-    link: "/our-services/app-seo-markiting",
+    link: "/app-seo-markiting",
   },
   {
     id: 9,
@@ -92,6 +92,6 @@ export const ourservices = [
     imageUrl: "/assets/images/template/tool-zapier.svg",
     altTextImage: "🤝",
     imageAlt: "Consultation & Support",
-    link: "/our-services/consultation-support",
+    link: "/consultation-support",
   },
 ];

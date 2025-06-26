@@ -14,14 +14,16 @@ export default function Team() {
                 className="heading vstack items-center gap-2 panel max-w-650px mx-auto text-center"
                 data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});"
               >
-                <span className="fw-bold text-primary dark:text-secondary">
-                  Our team
-                </span>
-                <h2 className="title h3 lg:h2 xl:h1 m-0">
-                  People you’ll be working with
+               <h2 className="title h3 lg:h2 xl:h1 m-0 px-2">
+                  <span className="d-inline-flex px-1 bg-primary dark:bg-secondary text-secondary dark:text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                    Expert team
+                  </span>{" "}
+                  behind this builder
                 </h2>
-                <p className="fs-6 xl:fs-5 text-opacity-70">
-                  We’re a 100% remote team spread all across the world. Join us!
+                <p className="fs-6 xl:fs-5 text-black dark:text-white text-opacity-70">
+                  Our philosophy is simple — hire a team of diverse, passionate
+                  people and foster a culture that empowers you to do your best
+                  work.
                 </p>
                 <Link
                   href={`/page-about`}
