@@ -8,7 +8,7 @@ export const facts = [
   },
   {
     id: 2,
-    count: 1587,
+    count: "95%",
     description: "Satisfied Clients",
     animation:
       "onview: -100; textContent: [0, 1587]; round: 1; easing: linear; duration: 1200;",
@@ -22,7 +22,7 @@ export const facts = [
   },
   {
     id: 4,
-    count: 12820,
+    count: 3820,
     description: "Cups Of Coffee",
     animation:
       "onview: -100; textContent: [0, 12820]; round: 1; easing: linear; duration: 1200;",

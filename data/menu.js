@@ -853,7 +853,7 @@ export const featurePageLinks = [
 
    {
     title: "Ecommerce Development",
-    icon: "unicon-gamification",
+    icon: "unicon-shopping-cart",
     items: [
       {
         icon: "shopify_dark.svg",
@@ -885,8 +885,8 @@ export const featurePageLinks = [
   },
 
    {
-    title: "Mobile App Development",
-    icon: "unicon-gamification",
+    title: "📱 Mobile App Development",
+    icon: "",
     items: [
       {
         icon: "android.svg",

@@ -209,40 +209,27 @@ export default function Hero() {
                   className="vstack gap-2 mt-2 sm:mt-4 lg:mt-0 sm:text-center lg:text-start rtl:lg:text-end uc-dark"
                   data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});"
                 >
-                  <span className="fs-6 fw-bold text-primary dark:text-secondary">
-                    CRM Tool Workflow
-                  </span>
-                  <h1 className="h2 sm:h1 lg:display-6 xl:display-5 mb-1 xl:mb-2">
-                    Streamline your Tool Workflow.
-                  </h1>
-                  <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70">
-                    Keep data consistent, with native CRM integrations that
-                    streamline your entire Tool workflow.
-                  </p>
-                  <form
-                    onSubmit={(e) => e.preventDefault()}
-                    className="row child-cols g-1 mt-1 sm:mt-2"
-                  >
-                    <div>
-                      <input
-                        className="form-control h-48px lg:h-56px w-full bg-white dark:border-white dark:bg-opacity-10 dark:border-opacity-0 dark:text-white"
-                        type="text"
-                        placeholder="Your email address"
-                        required
-                      />
-                    </div>
-                    <div className="col-12 sm:col-auto">
+                 <h1 className="h1 sm:display-6 md:display-5 lg:display-4 xl:display-3 m-0 text-white">
+                    Build websites
+                    <span className="d-inline-flex px-1 bg-secondary text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
+                      effortlessly
+                    </span>
+                    <br />
+                    now or never!
+                  </h1>                  
+             
+                    <div className="col-4 sm:col-auto">
                       <Link
-                        href={`/page-pricing`}
-                        className="btn btn-md h-48px lg:h-56px w-100 sm:min-w-150px btn-primary text-white"
+                        href={`/page-contact`}
+                        className="btn btn-md h-48px lg:h-56px w-1/2 sm:min-w-150px btn-primary text-white"
                       >
-                        Start free trial
+                        Contact Us
                       </Link>
                     </div>
-                  </form>
-                  <p className="fs-7 text-dark dark:text-white text-opacity-70">
+               
+                  {/* <p className="fs-7 text-dark dark:text-white text-opacity-70">
                     No credit card required.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="col-12 lg:col-6 xl:col-7">

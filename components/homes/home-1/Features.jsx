@@ -103,7 +103,7 @@ With deep experience in Shopify app development using Remix and custom theme cre
                               <div>
                                 <div className="panel vstack gap-2">
                                   <h3 className="h4 sm:h3 lg:h2 m-0">
-                                    Shopify, WordPress, and BigCommerce
+                                   Headless, Shopify, React, and more..
                                   </h3>
                                   <p className="fs-6 lg:fs-5 opacity-70 dark:opacity-80">
                                     We build powerful and user-friendly online stores using leading platforms. From custom themes to advanced integrations, we help businesses create seamless shopping experiences that drive conversions.
