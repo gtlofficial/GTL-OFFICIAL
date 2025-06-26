@@ -161,7 +161,7 @@ export default function Header6({ staticPosition = false }) {
                                                     >
                                                       <span className="icon rounded dark:bg-white">
                                                         <Image
-                                                          className="w-32px"
+                                                          className="w-30px"
                                                           alt="icon"
                                                           src={`/assets/images/custom-icons/${item.icon}`}
                                                           width="24"

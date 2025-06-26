@@ -765,25 +765,25 @@ export const featurePageLinks = [
     icon: "unicon-cube",
     items: [
       {
-        icon: "icon-01.svg",
+        icon: "shopify_dark.svg",
         title: "Shopify",
         description: "Custom Shopify Stores That Convert",
         link:"#",
       },
       {
-        icon: "icon-02.svg",
+        icon: "squarespace.svg",
         title: "Squarespace",
         description: "Build a stunning Squarespace site that speaks directly to your audience.",
         link:"#",
       },
       {
-        icon: "icon-03.svg",
+        icon: "node-js.svg",
         title: "Node JS",
         description: "Build fast, scalable, and reliable backend systems with Node.js.",
         link:"#",
       },
       {
-        icon: "icon-07.svg",
+        icon: "react-js.svg",
         title: "React JS",
         description: "Build fast, interactive, and scalable frontends with React.",
         link:"#",
@@ -797,25 +797,25 @@ export const featurePageLinks = [
     icon: "unicon-gamification",
     items: [
       {
-        icon: "icon-04.svg",
+        icon: "node-js.svg",
         title: "NodeJS",
         description: "Build scalable, high-performance backend systems with NodeJS.",
         link:"#",
       },
       {
-        icon: "icon-05.svg",
+        icon: "react-js.svg",
         title: "ReactJS",
         description: "Create scalable, component-based frontend experiences.",
         link:"#",
       },
       {
-        icon: "icon-06.svg",
+        icon: "angularjs.svg",
         title: "AngularJS",
         description: "Scalable frontend architecture for complex applications.",
         link:"#",
       },
       {
-        icon: "icon-08.svg",
+        icon: "laravel.svg",
         title: "Laravel",
         description: "Build secure, custom web applications with Laravel.",
         link:"#",
@@ -830,19 +830,19 @@ export const featurePageLinks = [
     icon: "unicon-gamification",
     items: [
       {
-        icon: "icon-04.svg",
+        icon: "node-js.svg",
         title: "NodeJS",
         description: "Build fast, scalable APIs with NodeJS.",
         link:"#",
       },
       {
-        icon: "icon-05.svg",
+        icon: "codeigniter.svg",
         title: "CodeIgniter",
         description: "Build secure, high-performance APIs using CodeIgniter.",
         link:"#",
       },
       {
-        icon: "icon-05.svg",
+        icon: "laravel.svg",
         title: "Laravel",
         description: "Build secure, RESTful APIs with Laravel.",
         link:"#",
@@ -856,25 +856,25 @@ export const featurePageLinks = [
     icon: "unicon-gamification",
     items: [
       {
-        icon: "icon-04.svg",
+        icon: "shopify_dark.svg",
         title: "Shopify",
         description: "Custom Shopify stores designed to sell.",
         link:"#",
       },
       {
-        icon: "icon-05.svg",
+        icon: "wordpress.svg",
         title: "WordPress",
         description: "Custom WordPress websites tailored to your brand.",
         link:"#",
       },
       {
-        icon: "icon-06.svg",
+        icon: "squarespace.svg",
         title: "Squarespace",
         description: "Design sleek, modern websites with Squarespace.",
         link:"#",
       },
       {
-        icon: "icon-08.svg",
+        icon: "wix.svg",
         title: "Wix",
         description: "Launch beautiful, user-friendly sites on Wix.",
         link:"#",
@@ -889,25 +889,25 @@ export const featurePageLinks = [
     icon: "unicon-gamification",
     items: [
       {
-        icon: "icon-04.svg",
+        icon: "android.svg",
         title: "Android",
         description: "Custom Android apps built for performance and scale.",
         link:"#",
       },
       {
-        icon: "icon-05.svg",
+        icon: "ios.svg",
         title: "iOS",
         description: "Deliver smooth and secure experiences on iOS devices.",
         link:"#",
       },
       {
-        icon: "icon-06.svg",
+        icon: "flutter.svg",
         title: "Flutter",
         description: "Build beautiful cross-platform apps with Flutter.",
         link:"#",
       },
       {
-        icon: "icon-08.svg",
+        icon: "react-js.svg",
         title: "React Native",
         description: "One codebase. Native apps for all devices.",
         link:"#",
@@ -921,13 +921,13 @@ export const featurePageLinks = [
     icon: "unicon-gamification",
     items: [
       {
-        icon: "icon-04.svg",
+        icon: "shopify_dark.svg",
         title: "Shopify",
         description: "Custom Shopify apps to extend store functionality.",
         link:"#",
       },
       {
-        icon: "icon-05.svg",
+        icon: "wordpress.svg",
         title: "WordPress",
         description: "Custom WordPress plugins for enhanced site functionality.",
         link:"#",
