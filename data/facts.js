@@ -65,6 +65,6 @@ export const panelsData = [
     text: "Ongoing Projects",
     animationData:
       "onview: -100; textContent: [0, 12]; round: 1; easing: linear; duration: 1200;",
-    suffix: "k",
+    // suffix: "k",
   },
 ];
