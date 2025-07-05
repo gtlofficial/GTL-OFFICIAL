@@ -1,4 +1,4 @@
-import { customapi_development } from "@/data/web-development";
+import { customapi_development } from "@/data/core-services";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";

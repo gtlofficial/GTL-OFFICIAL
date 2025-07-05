@@ -99,7 +99,7 @@ export const web_development = [
   },
 //   {
 //     order: "order-2 lg:order-0",
-//     iconSrc: "/assets/images/common/icons/laravel.svg",
+//     iconSrc: "/assets/images/common/icons/flutter.svg",
 //     alt: "feature-icon",
 //     title: "Laravel",
 //     description:
@@ -285,14 +285,68 @@ export const ecom_development = [
     description:
       "Develop fast, lightweight websites with clean HTML — offering full control, scalability, and top-notch performance.",
   },
-//   {
-//     order: "order-2 lg:order-0",
-//     iconSrc: "/assets/images/common/icons/laravel.svg",
-//     alt: "feature-icon",
-//     title: "Laravel",
-//     description:
-//       "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
-//     bgClass:
-//       "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
-//   },
+];
+
+
+export const app_development = [
+  {
+    order: "order-1 lg:order-0",
+     iconSrc: "/assets/images/common/icons/android.svg",
+    alt: "Android",
+    title: "Android",
+    description:
+       "Custom Android apps built for performance and scale.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  },
+  {
+    order: "order-0",
+    iconSrc: "/assets/images/common/icons/ios.svg",
+    alt: "ios",
+    title: "IOS",
+    description:
+      "Deliver smooth and secure experiences on iOS devices.",    
+  },
+  {
+    order: "order-2 sm:order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/react-js.svg",
+    alt: "react native",
+    title: "React Native",
+    description:
+      "One codebase. Native apps for all devices.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-bottom-end-0 lg:rounded-bottom-0",
+  },
+  {
+    order: "order-2 lg:order-0",
+    iconSrc: "/assets/images/common/icons/flutter.svg",
+    alt: "flutter",
+    title: "Flutter",
+    description:
+      "Build beautiful cross-platform apps with Flutter.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },
+];
+
+
+export const plugin_development = [
+  {
+    order: "order-1 lg:order-0",
+    iconSrc: "/assets/images/common/icons/shopify_dark.svg",
+    alt: "Shopify",
+    title: "Shopify",
+    description:
+      "Launch high-converting Shopify stores with custom themes, powerful features, and seamless user experiences.",
+  },    
+  {
+    order: "order-3 lg:order-0",
+    iconSrc: "/assets/images/common/icons/wordpress.svg",
+    alt: "Wordpress",
+    title: "WordPress",
+    description:
+      "Custom WordPress development tailored to your brand — from blogs to full-scale business websites.",
+    bgClass:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+  },  
 ];
