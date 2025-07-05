@@ -22,7 +22,7 @@ export default function plugindevelopment() {
                   Development
                 </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                At GTL Web Solutions, we specialize in building high-quality, performance-driven websites tailored to your business needs and budget. Whether you require a clean landing page, a dynamic e-commerce platform, or a custom web application, our experienced team is equipped to deliver scalable and secure solutions using the latest technologies and frameworks. We focus on creating fast, responsive, and visually engaging websites that not only look great but also drive real results for your brand.
+                At GTL Web Solutions, we specialize in custom plugin development that enhances the functionality and performance of your website or application. Whether you need to extend features on Shopify, WordPress, or other platforms, our team builds secure, scalable, and seamlessly integrated plugins tailored to your business goals. From payment gateways and booking systems to advanced API integrations and marketing tools, we deliver plugins that are lightweight, user-friendly, and built to perform. Let us help you turn complex needs into simple, smart solutions.
               </p>
             </div>
             <div

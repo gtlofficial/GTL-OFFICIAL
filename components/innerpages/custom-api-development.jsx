@@ -22,7 +22,7 @@ export default function APIdevelopment() {
                   Development
                 </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                At GTL Web Solutions, we specialize in building high-quality, performance-driven websites tailored to your business needs and budget. Whether you require a clean landing page, a dynamic e-commerce platform, or a custom web application, our experienced team is equipped to deliver scalable and secure solutions using the latest technologies and frameworks. We focus on creating fast, responsive, and visually engaging websites that not only look great but also drive real results for your brand.
+                At GTL Web Solutions, we provide robust and secure custom API development services that empower your applications to communicate seamlessly and perform at scale. Whether you're building a new system from scratch or need to integrate third-party services, our API solutions are designed for flexibility, speed, and security. We specialize in developing RESTful and GraphQL APIs, custom endpoints, and middleware integrations that streamline workflows, enhance user experience, and enable real-time data exchange across platforms. From e-commerce platforms and mobile apps to CRMs and SaaS products — we build the connections that power your business.
               </p>
             </div>
             <div

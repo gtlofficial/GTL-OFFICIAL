@@ -22,7 +22,7 @@ export default function ecomdevelopment() {
                   Development
                 </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                At GTL Web Solutions, we specialize in building high-quality, performance-driven websites tailored to your business needs and budget. Whether you require a clean landing page, a dynamic e-commerce platform, or a custom web application, our experienced team is equipped to deliver scalable and secure solutions using the latest technologies and frameworks. We focus on creating fast, responsive, and visually engaging websites that not only look great but also drive real results for your brand.
+                At GTL Web Solutions, we craft high-performance, user-focused e-commerce websites that drive sales and elevate your brand. Whether you're launching a new store or scaling an existing one, our team specializes in custom development on platforms like Shopify, WordPress (WooCommerce), Squarespace, and Headless CMS. From seamless product browsing and secure checkout to custom integrations and mobile optimization, we build online stores that convert visitors into loyal customers. Our goal is simple — deliver a fast, responsive, and scalable shopping experience tailored to your business.
               </p>
             </div>
             <div

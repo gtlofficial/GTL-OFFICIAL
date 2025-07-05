@@ -22,7 +22,7 @@ export default function appmdevelopment() {
                   Development
                 </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                At GTL Web Solutions, we specialize in building high-quality, performance-driven websites tailored to your business needs and budget. Whether you require a clean landing page, a dynamic e-commerce platform, or a custom web application, our experienced team is equipped to deliver scalable and secure solutions using the latest technologies and frameworks. We focus on creating fast, responsive, and visually engaging websites that not only look great but also drive real results for your brand.
+                At GTL Web Solutions, we design and develop powerful, user-centric mobile applications that help businesses thrive in a mobile-first world. Whether you're building a native Android or iOS app, or a cross-platform solution using Flutter or React Native, we focus on performance, usability, and scalability. From idea to deployment, our team delivers sleek, intuitive apps that not only look great but also solve real business problems. Whether it's e-commerce, booking systems, or enterprise tools — we turn your vision into a high-performing mobile experience.
               </p>
             </div>
             <div

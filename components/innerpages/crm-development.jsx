@@ -22,7 +22,7 @@ export default function crmdevelopment() {
                   Development
                 </h2>
               <p className="fs-7 sm:fs-6 lg:fs-5 xl:fs-4 text-opacity-70">
-                At GTL Web Solutions, we specialize in building high-quality, performance-driven websites tailored to your business needs and budget. Whether you require a clean landing page, a dynamic e-commerce platform, or a custom web application, our experienced team is equipped to deliver scalable and secure solutions using the latest technologies and frameworks. We focus on creating fast, responsive, and visually engaging websites that not only look great but also drive real results for your brand.
+                At GTL Web Solutions, we deliver powerful custom CRM development services tailored to meet the unique needs of modern businesses. Our CRM systems help streamline operations, automate workflows, and centralize customer data — all while enhancing team collaboration and customer engagement. Whether you're in e-commerce, real estate, healthcare, or a service-based industry, we design scalable, secure, and user-friendly CRM platforms that drive measurable results. From lead capture to client retention, our solutions are built to support your growth at every stage of the customer journey.
               </p>
             </div>
             <div
