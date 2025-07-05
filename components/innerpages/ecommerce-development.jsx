@@ -1,8 +1,8 @@
-import { crm_development } from "@/data/web-development";
+import { ecom_development } from "@/data/web-development";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-export default function crmdevelopment() {
+export default function ecomdevelopment() {
   return (
     <div
       id="main_features"
@@ -17,7 +17,7 @@ export default function crmdevelopment() {
             >             
               <h2 className="title h3 lg:h2 xl:h1 m-0 px-2">
                   <span className="d-inline-flex px-1 bg-primary dark:bg-secondary text-secondary dark:text-primary -rotate-1 lg:-rotate-2 rounded-1 lg:rounded-1-5">
-                   CRM 
+                   Ecommerce 
                   </span>{" "}
                   Development
                 </h2>
@@ -29,7 +29,7 @@ export default function crmdevelopment() {
               className="features-items row child-cols-12 sm:child-cols-6 lg:child-cols-4 g-0 col-match justify-center"
               data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});"
             >
-              {crm_development.map((item, index) => (
+              {ecom_development.map((item, index) => (
                 <div key={index} className={item.order}>
                   <div
                     className={`features-item vstack justify-between items-center gap-6 xl:gap-8 p-4 xl:p-6 rounded-1-5 ${
